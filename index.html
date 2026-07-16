@@ -338,6 +338,7 @@ footer{background:#081C24;padding:48px 28px 28px}
     <h1 class="hero-title" data-t="hero-title">Seu guia vivo<br><em>no litoral</em></h1>
     <p class="hero-sub" data-t="hero-sub">A Rede Arrey Hotels reuniu o melhor de Parnaíba, Luís Correia e Barra Grande — tudo para você viver cada momento com intensidade.</p>
     <p class="hero-phrase" data-t="hero-phrase">"O litoral chama. A felicidade acontece aqui."</p>
+    <div style="display:inline-flex;align-items:center;gap:9px;background:linear-gradient(135deg,rgba(201,168,76,.22),rgba(232,201,106,.12));border:1px solid rgba(232,201,106,.5);color:var(--gold2);font-size:12.5px;font-weight:600;padding:9px 20px;border-radius:24px;margin-bottom:22px;backdrop-filter:blur(6px);-webkit-backdrop-filter:blur(6px)">🌱 O Guia está em crescimento, muito mais ainda iremos indicar!</div>
     <div class="hero-ctas">
       <a href="#cats-anchor" onclick="showTab('home');setTimeout(scrollToCats,400);return false" class="btn-pri">Explorar tudo <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg></a>
       <a href="#tab-hoteis" onclick="return showTab('hoteis')" class="btn-ghost">🏨 Nossos hotéis</a>
@@ -364,7 +365,7 @@ footer{background:#081C24;padding:48px 28px 28px}
     <a class="snbtn" data-tab="servicos" href="#tab-servicos" onclick="return showTab('servicos',this)"><span class="snico">🏥</span><span class="snlabel">Serviços</span></a>
   </div>
 </div>
-<div style="background:#f8f4ec;border-top:1px solid #e0d4bc;border-bottom:1px solid #e0d4bc;padding:7px 28px;text-align:center;font-size:10px;color:#999;font-style:italic;line-height:1.5;position:sticky;top:64px;z-index:800">⚠️ Material de apoio indicativo, sem relação dos serviços ou produtos dos estabelecimentos neles indicados com a Rede de Hotéis Arrey. Tratativas desvinculadas. Trata-se de mera cortesia de informação.</div>
+<div style="background:#f8f4ec;border-top:1px solid #e0d4bc;border-bottom:1px solid #e0d4bc;padding:7px 28px;text-align:center;font-size:10px;color:#999;font-style:italic;line-height:1.5;position:sticky;top:64px;z-index:800">⚠️ Material de apoio indicativo, as tratativas com os estabelecimentos são independentes e desvinculadas deste referido guia. O Guia Arrey Indica trata-se de mera cortesia de informação, não exerce atividade de vendas.</div>
 <div class="tab-section active" id="tab-home">
   <div class="stats"><div class="stats-in">
     <div class="stat rv"><div class="stat-ico">🏝️</div><div><div class="stat-n">75+</div><div class="stat-l">Ilhas no Delta</div></div></div>
@@ -635,7 +636,7 @@ footer{background:#081C24;padding:48px 28px 28px}
 
   <div class="sec-ey" data-t="sec-rest-ey">🍽️ Gastronomia</div>
   <h2 class="sec-title" data-t="sec-rest-title">Restaurantes <em>&amp; Bares</em></h2>
-  <p class="sec-desc">Do caranguejo do Delta ao rooftop do Arrey Boutique em Barra Grande — 19 parceiros curados com mínimo 4★ Google.</p>
+  <p class="sec-desc">Em todo litoral do Piauí você encontra saborosas experiências gastronômicas.</p>
   <div class="frow" style="margin-top:20px">
     <button class="fb on" onclick="filCity('all',this,'rg')">Todos</button>
     <button class="fb" onclick="filCity('pa',this,'rg')">📍 Parnaíba (6)</button>
@@ -2320,7 +2321,7 @@ footer{background:#081C24;padding:48px 28px 28px}
 <div class="pdf-sec"><div class="pdf-in">
   <div class="pdf-txt rv"><h2>Salve o Arrey Indica em PDF 📲</h2><p>Gere um guia prático com nome e telefone dos estabelecimentos, organizado por cidade — leve tudo com você, mesmo offline.</p></div>
   <div class="pdf-btns rv" style="transition-delay:.15s">
-    <a href="#" onclick="generateArreyIndicaPDF();return false;" class="b-pdf"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M14 2H6a2 2 0 00-2 2v16a2 2 0 002 2h12a2 2 0 002-2V8z"/><polyline points="14,2 14,8 20,8"/><line x1="12" y1="18" x2="12" y2="12"/><polyline points="9,15 12,18 15,15"/></svg> Salve o Arrey Indica em PDF</a>
+    <a href="#" onclick="generateArreyIndicaPDF();return false;" class="b-pdf"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M14 2H6a2 2 0 00-2 2v16a2 2 0 002 2h12a2 2 0 002-2V8z"/><polyline points="14,2 14,8 20,8"/><line x1="12" y1="18" x2="12" y2="12"/><polyline points="9,15 12,18 15,15"/></svg> Salve o Resumo do guia em PDF</a>
     
   </div>
 </div></div>
@@ -2337,8 +2338,8 @@ footer{background:#081C24;padding:48px 28px 28px}
     <div class="fcopy"><span data-t="footer-copy">© 2026 Rede Arrey Hotels · Arrey Indica. Fontes: Min. Turismo, , Prefeituras Municipais, TripAdvisor.</span></div>
     <div class="fsoc"><a href="https://instagram.com/arreyhotels" target="_blank" class="fsc">Instagram</a><a href="https://tiktok.com/@arreyhotels" target="_blank" class="fsc">TikTok</a><a href="https://youtube.com/@arreyhotels" target="_blank" class="fsc">YouTube</a></div>
   </div>
-</div><div style="background:#f8f4ec;border-top:1px solid #e0d4bc;padding:10px 28px;text-align:center;font-size:10px;color:#999;font-style:italic;line-height:1.6">⚠️ Material de apoio indicativo, sem relação dos serviços ou produtos dos estabelecimentos neles indicados com a Rede de Hotéis Arrey. Tratativas desvinculadas. Trata-se de mera cortesia de informação.</div>
-<div style="background:#3a2a12;padding:12px 28px;text-align:center;font-size:11px;color:#FFD98E;font-weight:600;line-height:1.6;border-top:2px solid #C9A96E">⚠️ Alertamos para conferir antecipadamente e diretamente com os estabelecimentos informados seus serviços atuais praticados e os horários de funcionamento.</div>
+</div><div style="background:#f8f4ec;border-top:1px solid #e0d4bc;padding:10px 28px;text-align:center;font-size:10px;color:#999;font-style:italic;line-height:1.6">⚠️ Material de apoio indicativo, as tratativas com os estabelecimentos são independentes e desvinculadas deste referido guia. O Guia Arrey Indica trata-se de mera cortesia de informação, não exerce atividade de vendas.</div>
+<div style="background:#3a2a12;padding:12px 28px;text-align:center;font-size:11px;color:#FFD98E;font-weight:600;line-height:1.6;border-top:2px solid #C9A96E">⚠️ Alertamos para conferir antecipadamente e diretamente com os estabelecimentos informados seus serviços atuais praticados e os horários de funcionamento. Este guia poderá ser desabilitado sem aviso prévio, sem qualquer ônus ao desenvolvedor do guia.</div>
 </footer>
 
 <a href="https://api.whatsapp.com/send?phone=5586999961090&text=Olá!%20Vim%20pelo%20Arrey%20Indica!" target="_blank" class="wa" title="Falar com a Arrey Hotels">
@@ -3097,13 +3098,13 @@ var CATEGORY_COLORS = {
 function collectArreyEstablishments(){
   var cityNames = {pa:'Parnaíba, PI', bg:'Barra Grande', lc:'Luís Correia', ig:'Ilha Grande'};
   var categories = {};
-  function addTo(category, city, name, type, phone){
+  function addTo(category, city, name, type, phone, address){
     if(!name) return;
     if(!categories[category]) categories[category] = {};
     if(!categories[category][city]) categories[category][city] = [];
     var list = categories[category][city];
     for(var i=0;i<list.length;i++){ if(list[i].name===name) return; }
-    list.push({name:name, type:type||'', phone:phone||''});
+    list.push({name:name, type:type||'', phone:phone||'', address:address||''});
   }
   function firstPhone(card){
     var infos = card.querySelectorAll('.pinfo');
@@ -3115,12 +3116,25 @@ function collectArreyEstablishments(){
     }
     return '';
   }
+  function firstAddress(card){
+    var infos = card.querySelectorAll('.pinfo');
+    for(var i=0;i<infos.length;i++){
+      var el = infos[i];
+      var icoEl = el.querySelector('.pi-ico');
+      var ico = icoEl ? icoEl.textContent : '';
+      var t = el.textContent || '';
+      if(ico.indexOf('📍')!==-1 || t.trim().indexOf('📍')===0){
+        return t.replace(/[📍]/g,'').trim();
+      }
+    }
+    return '';
+  }
   document.querySelectorAll('.hcard').forEach(function(card){
     var nameEl = card.querySelector('.hcard-name');
     var cityEl = card.querySelector('.hcard-city');
     if(!nameEl) return;
     var city = cityEl ? cityEl.textContent.replace('📍','').trim() : 'Litoral do Piauí';
-    addTo('Hotéis Arrey', city, nameEl.textContent.trim(), 'Rede Arrey Hotels', firstPhone(card));
+    addTo('Hotéis Arrey', city, nameEl.textContent.trim(), 'Rede Arrey Hotels', firstPhone(card), firstAddress(card));
   });
   document.querySelectorAll('.pcard[data-c]').forEach(function(card){
     var code = card.getAttribute('data-c');
@@ -3133,7 +3147,7 @@ function collectArreyEstablishments(){
     if(typeEl){
       type = typeEl.textContent.split('·')[0].trim();
     }
-    addTo(category, city, nameEl.textContent.trim(), type, firstPhone(card));
+    addTo(category, city, nameEl.textContent.trim(), type, firstPhone(card), firstAddress(card));
   });
   return categories;
 }
@@ -3164,17 +3178,41 @@ function generateArreyIndicaPDF(){
     return a.localeCompare(b,'pt-BR');
   });
 
-  function footer(){
+  var NOTICE_15D = 'Por segurança, esta lista de sugestões tem validade de 15 dias a contar da data da geração. Alerta-se da possibilidade de, antes deste prazo, estabelecimentos modificarem seus serviços, produtos ou funcionamento.';
+
+  function headerFooter(){
     var n = doc.internal.getNumberOfPages();
     for(var i=1;i<=n;i++){
       doc.setPage(i);
+      var isBanner = (i===1 || i===n);
+
+      // ----- CABEÇALHO -----
+      doc.setFont('helvetica','italic');
+      doc.setFontSize(6.6);
+      if(isBanner){
+        doc.setTextColor(255,225,170);
+        var hLinesB = doc.splitTextToSize(NOTICE_15D, contentW);
+        doc.text(hLinesB, marginX, 20);
+      } else {
+        doc.setTextColor(150,150,150);
+        var hLines = doc.splitTextToSize(NOTICE_15D, contentW);
+        doc.text(hLines, marginX, 18);
+      }
+
+      // ----- RODAPÉ -----
       doc.setDrawColor(225);
-      doc.line(marginX, pageHeight-34, pageWidth-marginX, pageHeight-34);
+      doc.line(marginX, pageHeight-48, pageWidth-marginX, pageHeight-48);
+      doc.setFont('helvetica','italic');
+      doc.setFontSize(6.6);
+      doc.setTextColor(150,150,150);
+      var fLines = doc.splitTextToSize(NOTICE_15D, contentW);
+      doc.text(fLines, marginX, pageHeight-38);
+
       doc.setFont('helvetica','normal');
       doc.setFontSize(8);
       doc.setTextColor(140);
-      doc.text('Arrey Indica · Guia do Litoral do Piauí', marginX, pageHeight-22);
-      doc.text('Página ' + i + ' de ' + n, pageWidth-marginX, pageHeight-22, {align:'right'});
+      doc.text('Arrey Indica · Guia do Litoral do Piauí', marginX, pageHeight-14);
+      doc.text('Página ' + i + ' de ' + n, pageWidth-marginX, pageHeight-14, {align:'right'});
     }
   }
 
@@ -3189,12 +3227,30 @@ function generateArreyIndicaPDF(){
   doc.text('ARREY INDICA', marginX, 90);
   doc.setFontSize(14);
   doc.setFont('helvetica','normal');
-  doc.text('Guia Completo de Estabelecimentos', marginX, 118);
+  doc.text('Guia Sintético de Apoio', marginX, 118);
   doc.text('Litoral do Piauí — Parnaíba · Luís Correia · Barra Grande · Ilha Grande', marginX, 138);
   var today = new Date().toLocaleDateString('pt-BR');
   doc.setFontSize(10);
   doc.setTextColor(220,220,220);
   doc.text('Gerado em ' + today, marginX, 162);
+
+  var badgeW = 200;
+  var badgeH = 62;
+  var badgeX = pageWidth - marginX - badgeW;
+  var badgeY = 64;
+  doc.setFillColor(255,255,255);
+  doc.roundedRect(badgeX, badgeY, badgeW, badgeH, 8, 8, 'F');
+  doc.setDrawColor(GOLD[0],GOLD[1],GOLD[2]);
+  doc.setLineWidth(1.6);
+  doc.roundedRect(badgeX, badgeY, badgeW, badgeH, 8, 8, 'S');
+  doc.setLineWidth(1);
+  doc.setFont('helvetica','bolditalic');
+  doc.setFontSize(10);
+  doc.setTextColor(BRAND[0],BRAND[1],BRAND[2]);
+  var badgeText = 'O Guia está em crescimento, muito mais ainda iremos indicar!';
+  var badgeLines = doc.splitTextToSize(badgeText, badgeW - 20);
+  var badgeTextH = badgeLines.length*12;
+  doc.text(badgeLines, badgeX + badgeW/2, badgeY + (badgeH-badgeTextH)/2 + 9, {align:'center'});
 
   var y = 230;
   doc.setFont('helvetica','bold');
@@ -3235,6 +3291,22 @@ function generateArreyIndicaPDF(){
   var introText = 'Este guia reúne hotéis, restaurantes, passeios, artesanato local, bem-estar, serviços e utilidades do litoral piauiense, organizados por categoria e, dentro de cada categoria, por cidade — para facilitar sua leitura e sua busca durante a viagem.';
   var introLines = doc.splitTextToSize(introText, contentW);
   doc.text(introLines, marginX, y);
+  y += introLines.length*12 + 18;
+
+  var noticeBoxY = y;
+  var noticeText = 'Este guia é uma cortesia de informações sobre a região do litoral do Piauí. Consulte previamente cada estabelecimento sobre seu horário de funcionamento, em virtude de possíveis alterações. Material de apoio indicativo, as tratativas com os estabelecimentos são independentes e desvinculadas deste referido guia. O Guia Arrey Indica trata-se de mera cortesia de informação, não exerce atividade de vendas.';
+  doc.setFont('helvetica','bold');
+  doc.setFontSize(9.5);
+  var noticeLines = doc.splitTextToSize(noticeText, contentW - 20);
+  var noticeBoxH = noticeLines.length*12 + 20;
+  doc.setFillColor(58,42,18);
+  doc.roundedRect(marginX, noticeBoxY, contentW, noticeBoxH, 4, 4, 'F');
+  doc.setDrawColor(GOLD[0],GOLD[1],GOLD[2]);
+  doc.setLineWidth(1.2);
+  doc.roundedRect(marginX, noticeBoxY, contentW, noticeBoxH, 4, 4, 'S');
+  doc.setLineWidth(1);
+  doc.setTextColor(255,217,142);
+  doc.text(noticeLines, marginX+10, noticeBoxY+16);
 
   // ===== CONTEÚDO =====
   doc.addPage();
@@ -3285,8 +3357,9 @@ function generateArreyIndicaPDF(){
       items.sort(function(a,b){ return a.name.localeCompare(b.name,'pt-BR'); });
       items.forEach(function(it){
         var nameLines = doc.splitTextToSize(it.name, contentW - 20);
-        var blockH = 14 + nameLines.length*13 + (it.type?12:0) + (it.phone?12:0) + 6;
-        if(y + blockH > pageHeight - 46){ doc.addPage(); y = 56; }
+        var addrLines = it.address ? doc.splitTextToSize('Endereço: ' + it.address, contentW - 20) : [];
+        var blockH = 14 + nameLines.length*13 + (it.type?12:0) + (it.phone?12:0) + (addrLines.length?addrLines.length*11:0) + 6;
+        if(y + blockH > pageHeight - 58){ doc.addPage(); y = 56; }
 
         doc.setFillColor(col[0],col[1],col[2]);
         doc.circle(marginX+4, y-3, 2.2, 'F');
@@ -3311,6 +3384,13 @@ function generateArreyIndicaPDF(){
           doc.text('Tel/WhatsApp: ' + it.phone, marginX+14, y);
           y += 12;
         }
+        if(addrLines.length){
+          doc.setFont('helvetica','normal');
+          doc.setFontSize(9);
+          doc.setTextColor(90,90,90);
+          doc.text(addrLines, marginX+14, y);
+          y += addrLines.length*11;
+        }
         y += 8;
       });
       y += 8;
@@ -3318,7 +3398,44 @@ function generateArreyIndicaPDF(){
     y += 6;
   });
 
-  footer();
+  // ===== ÚLTIMA PÁGINA — AVISO =====
+  doc.addPage();
+  doc.setFillColor(BRAND[0],BRAND[1],BRAND[2]);
+  doc.rect(0,0,pageWidth,80,'F');
+  doc.setFillColor(GOLD[0],GOLD[1],GOLD[2]);
+  doc.rect(0,76,pageWidth,4,'F');
+  doc.setFont('helvetica','bold');
+  doc.setFontSize(16);
+  doc.setTextColor(255,255,255);
+  doc.text('ARREY INDICA', marginX, 48);
+
+  var endY = 130;
+  doc.setFont('helvetica','bold');
+  doc.setFontSize(13);
+  doc.setTextColor(BRAND[0],BRAND[1],BRAND[2]);
+  doc.text('Aviso importante', marginX, endY);
+  endY += 8;
+  doc.setDrawColor(GOLD[0],GOLD[1],GOLD[2]);
+  doc.setLineWidth(1.4);
+  doc.line(marginX, endY, marginX+70, endY);
+  doc.setLineWidth(1);
+  endY += 30;
+
+  var endNoticeText = 'Este guia é uma cortesia de informações sobre a região do litoral do Piauí. Consulte previamente cada estabelecimento sobre seu horário de funcionamento, em virtude de possíveis alterações. Material de apoio indicativo, as tratativas com os estabelecimentos são independentes e desvinculadas deste referido guia. O Guia Arrey Indica trata-se de mera cortesia de informação, não exerce atividade de vendas.';
+  doc.setFont('helvetica','bold');
+  doc.setFontSize(10.5);
+  var endNoticeLines = doc.splitTextToSize(endNoticeText, contentW - 24);
+  var endBoxH = endNoticeLines.length*14 + 26;
+  doc.setFillColor(58,42,18);
+  doc.roundedRect(marginX, endY, contentW, endBoxH, 5, 5, 'F');
+  doc.setDrawColor(GOLD[0],GOLD[1],GOLD[2]);
+  doc.setLineWidth(1.4);
+  doc.roundedRect(marginX, endY, contentW, endBoxH, 5, 5, 'S');
+  doc.setLineWidth(1);
+  doc.setTextColor(255,217,142);
+  doc.text(endNoticeLines, marginX+12, endY+20);
+
+  headerFooter();
   doc.save('arrey-indica-guia.pdf');
 }
 </script>
