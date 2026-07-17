@@ -1686,47 +1686,47 @@ footer{background:#081C24;padding:48px 28px 28px}
       <div class="sec-ey" style="color:var(--coral)">🚕 Táxi &amp; Mototáxi — Parnaíba e Luís Correia</div>
     </div>
 
-    <div class="pcard rv" data-c="pa">
+    <div class="pcard rv" data-c="lc">
       <div class="pcard-bar" style="background:var(--gold)"></div>
       <div class="pcard-top"><div class="pcard-ico" style="background:#FFF8E0">🚕</div><div class="pcard-meta">
         <div class="pcard-name">Paulim M. Taxi</div>
-        <div class="pcard-type">Táxi · Parnaíba</div>
+        <div class="pcard-type">Táxi · Luís Correia</div>
         
       </div></div>
-      <div class="pcard-body"><div class="pcard-desc">Táxi de confiança em Parnaíba. Atende no aeroporto, hotéis e passeios. Indicado pela equipe Arrey Hotels.</div>
+      <div class="pcard-body"><div class="pcard-desc">Táxi de confiança em Luís Correia. Atende no aeroporto, hotéis e passeios. Indicado pela equipe Arrey Hotels.</div>
       <div class="pcard-info"><div class="pinfo"><span class="pi-ico">☎</span>(86) 9409-3088</div></div></div>
       <div class="pcard-foot"><a href="https://wa.me/5586940930088" target="_blank" class="b-wa">💬 WhatsApp</a></div>
     </div>
 
-    <div class="pcard rv" data-c="pa" style="transition-delay:.06s">
+    <div class="pcard rv" data-c="lc" style="transition-delay:.06s">
       <div class="pcard-bar" style="background:var(--teal)"></div>
       <div class="pcard-top"><div class="pcard-ico" style="background:#E6F4F6">🛵</div><div class="pcard-meta">
         <div class="pcard-name">Leão Moto Taxi</div>
-        <div class="pcard-type">Mototáxi · Parnaíba</div>
+        <div class="pcard-type">Mototáxi · Luís Correia</div>
         
       </div></div>
-      <div class="pcard-body"><div class="pcard-desc">Mototáxi rápido para deslocamentos rápidos em Parnaíba e proximidades. Econômico e ágil.</div>
+      <div class="pcard-body"><div class="pcard-desc">Mototáxi rápido para deslocamentos rápidos em Luís Correia e proximidades. Econômico e ágil.</div>
       <div class="pcard-info"><div class="pinfo"><span class="pi-ico">☎</span>(86) 9448-5629</div></div></div>
       <div class="pcard-foot"><a href="https://wa.me/5586944856290" target="_blank" class="b-wa">💬 WhatsApp</a></div>
     </div>
 
-    <div class="pcard rv" data-c="pa" style="transition-delay:.12s">
+    <div class="pcard rv" data-c="lc" style="transition-delay:.12s">
       <div class="pcard-bar" style="background:var(--gold)"></div>
       <div class="pcard-top"><div class="pcard-ico" style="background:#FFF8E0">🚕</div><div class="pcard-meta">
         <div class="pcard-name">Marcão Taxi</div>
-        <div class="pcard-type">Táxi · Parnaíba</div>
+        <div class="pcard-type">Táxi · Luís Correia</div>
         
       </div></div>
-      <div class="pcard-body"><div class="pcard-desc">Táxi experiente em Parnaíba, conhece todos os pontos turísticos e restaurantes da cidade.</div>
+      <div class="pcard-body"><div class="pcard-desc">Táxi experiente em Luís Correia, conhece todos os pontos turísticos e restaurantes da cidade.</div>
       <div class="pcard-info"><div class="pinfo"><span class="pi-ico">☎</span>(86) 9973-8400</div></div></div>
       <div class="pcard-foot"><a href="https://wa.me/5586997384000" target="_blank" class="b-wa">💬 WhatsApp</a></div>
     </div>
 
-    <div class="pcard rv" data-c="pa" style="transition-delay:.18s">
+    <div class="pcard rv" data-c="lc" style="transition-delay:.18s">
       <div class="pcard-bar" style="background:var(--ocean)"></div>
       <div class="pcard-top"><div class="pcard-ico" style="background:#E6EFF3">🚕</div><div class="pcard-meta">
         <div class="pcard-name">Maklonso Taxi</div>
-        <div class="pcard-type">Táxi · Parnaíba</div>
+        <div class="pcard-type">Táxi · Luís Correia</div>
         
       </div></div>
       <div class="pcard-body"><div class="pcard-desc">Táxi disponível para transfer aeroporto, passeios pela região e deslocamentos intermunicipais no litoral.</div>
@@ -2540,6 +2540,550 @@ const LANGS = {
 
 let currentLang = 'pt';
 
+
+// ===== TRADUÇÃO DE ESTABELECIMENTOS (nomes, endereços e lugares permanecem em português) =====
+const TR_TAGS = {
+  "24 horas":["24 hours","24 horas"],
+  "A Domicílio":["House Call","A Domicilio"],
+  "Amanhecer":["Sunrise","Amanecer"],
+  "Ambiente Aconchegante":["Cozy Atmosphere","Ambiente Acogedor"],
+  "Aromaterapia":["Aromatherapy","Aromaterapia"],
+  "Artesanato":["Handicrafts","Artesanía"],
+  "Atração Natural":["Natural Attraction","Atracción Natural"],
+  "Aulas":["Classes","Clases"],
+  "Aulas Coletivas":["Group Classes","Clases Grupales"],
+  "Autoral":["Signature","De Autor"],
+  "Bar":["Bar","Bar"],
+  "Beach Bar":["Beach Bar","Beach Bar"],
+  "Beach Club":["Beach Club","Beach Club"],
+  "Beira-Mar":["Seafront","Frente al Mar"],
+  "Beira-Praia":["Beachfront","Frente a la Playa"],
+  "Beira-mar":["Seafront","Frente al Mar"],
+  "Beleza":["Beauty","Belleza"],
+  "Bilíngue":["Bilingual","Bilingüe"],
+  "Bistrô":["Bistro","Bistró"],
+  "Boteco":["Neighborhood Bar","Bar de Barrio"],
+  "Cafeteria":["Coffee Shop","Cafetería"],
+  "Caiaque":["Kayak","Kayak"],
+  "Caranguejo":["Crab","Cangrejo"],
+  "Cardio":["Cardio","Cardio"],
+  "Carne de Sol":["Sun-dried Beef","Carne de Sol"],
+  "Carros Novos":["New Cars","Autos Nuevos"],
+  "Cavalo-Marinho":["Seahorse","Caballito de Mar"],
+  "Chef":["Chef","Chef"],
+  "Churrasco":["BBQ","Parrilla"],
+  "Contemporânea":["Contemporary","Contemporánea"],
+  "Cozinha Aberta":["Open Kitchen","Cocina Abierta"],
+  "Culinária Piauiense":["Piauí Cuisine","Cocina de Piauí"],
+  "Delivery":["Delivery","Delivery"],
+  "Drinks":["Drinks","Tragos"],
+  "Drinks Artesanais":["Craft Drinks","Tragos Artesanales"],
+  "Dunas":["Dunes","Dunas"],
+  "Ecoturismo":["Ecotourism","Ecoturismo"],
+  "Espaço Kids":["Kids Area","Área Infantil"],
+  "Exclusivo":["Exclusive","Exclusivo"],
+  "Experiências":["Experiences","Experiencias"],
+  "Família":["Family","Familia"],
+  "Farmácia":["Pharmacy","Farmacia"],
+  "Feito à Mão":["Handmade","Hecho a Mano"],
+  "Fine Dining":["Fine Dining","Alta Cocina"],
+  "Food Truck":["Food Truck","Food Truck"],
+  "Foto":["Photo","Foto"],
+  "Franco-Brasileira":["French-Brazilian","Franco-Brasileña"],
+  "Frutos do Mar":["Seafood","Mariscos"],
+  "Gratuito":["Free","Gratuito"],
+  "Grelhados":["Grilled Dishes","Parrillados"],
+  "Grupos":["Groups","Grupos"],
+  "Happy Hour":["Happy Hour","Happy Hour"],
+  "Holístico":["Holistic","Holístico"],
+  "Italiano":["Italian","Italiano"],
+  "Jantar":["Dinner","Cena"],
+  "Kite":["Kite","Kite"],
+  "Kite Spot":["Kite Spot","Spot de Kite"],
+  "Kite Style":["Kite Style","Estilo Kite"],
+  "Kitesurf":["Kitesurfing","Kitesurf"],
+  "Lagoa":["Lagoon","Laguna"],
+  "Lancha":["Speedboat","Lancha"],
+  "Local":["Local","Local"],
+  "Locadora Nacional":["National Rental Chain","Alquiler Nacional"],
+  "Lutas":["Martial Arts","Artes Marciales"],
+  "Maquiagem":["Makeup","Maquillaje"],
+  "Massagem":["Massage","Masaje"],
+  "Meditação":["Meditation","Meditación"],
+  "Moda Praia":["Beachwear","Moda de Playa"],
+  "Muay Thai":["Muay Thai","Muay Thai"],
+  "Multilíngue":["Multilingual","Multilingüe"],
+  "Musculação":["Weight Training","Musculación"],
+  "Museu":["Museum","Museo"],
+  "Música":["Music","Música"],
+  "Música ao Vivo":["Live Music","Música en Vivo"],
+  "Noturno":["Nighttime","Nocturno"],
+  "Passeios":["Tours","Excursiones"],
+  "Patrimônio Histórico":["Historic Heritage","Patrimonio Histórico"],
+  "Peixe-Boi":["Manatee","Manatí"],
+  "Penteados":["Hairstyling","Peinados"],
+  "Personal":["Personal Trainer","Entrenador Personal"],
+  "Pet Friendly":["Pet Friendly","Pet Friendly"],
+  "Petiscos":["Bar Snacks","Tapas"],
+  "Pilates":["Pilates","Pilates"],
+  "Pizza":["Pizza","Pizza"],
+  "Praia":["Beach","Playa"],
+  "Praça Gourmet":["Gourmet Food Court","Plaza Gourmet"],
+  "Premiado":["Award-winning","Premiado"],
+  "Preço Justo":["Fair Price","Precio Justo"],
+  "Preço Negociável":["Negotiable Price","Precio Negociable"],
+  "Pé na Areia":["Feet in the Sand","Pies en la Arena"],
+  "Pôr do Sol":["Sunset","Atardecer"],
+  "Quadriciclo":["ATV","Cuatriciclo"],
+  "Quiosque":["Beach Kiosk","Quiosco"],
+  "Recuperação":["Recovery","Recuperación"],
+  "Rede Nacional":["National Chain","Cadena Nacional"],
+  "Regional":["Regional","Regional"],
+  "Regional Piauiense":["Piauí Regional Cuisine","Regional de Piauí"],
+  "Relaxamento":["Relaxation","Relajación"],
+  "Reserva Online":["Online Booking","Reserva Online"],
+  "Resort":["Resort","Resort"],
+  "Revoada Guarás":["Scarlet Ibis Flight","Vuelo de Guarás"],
+  "Risoto":["Risotto","Risotto"],
+  "Rituais Femininos":["Women's Rituals","Rituales Femeninos"],
+  "Rooftop":["Rooftop","Rooftop"],
+  "Rápido":["Fast","Rápido"],
+  "SUVs e Compactos":["SUVs & Compacts","SUVs y Compactos"],
+  "Saúde":["Health","Salud"],
+  "Sem Burocracia":["Hassle-free","Sin Burocracia"],
+  "Sem Taxa Fixa":["No Flat Fee","Sin Tarifa Fija"],
+  "Sem Taxa Mínima":["No Minimum Fee","Sin Tarifa Mínima"],
+  "Sorvete":["Ice Cream","Helado"],
+  "Sorvetes Regionais":["Regional Ice Cream","Helados Regionales"],
+  "Sushi":["Sushi","Sushi"],
+  "Tapioca":["Tapioca","Tapioca"],
+  "Terapia Corporal":["Body Therapy","Terapia Corporal"],
+  "Transfer":["Transfer","Traslado"],
+  "Trilhas":["Trails","Senderos"],
+  "Tropical":["Tropical","Tropical"],
+  "UTV":["UTV","UTV"],
+  "Ventosa":["Cupping Therapy","Ventosaterapia"],
+  "Vista Dunas":["Dune View","Vista a las Dunas"],
+  "Vista Mar":["Sea View","Vista al Mar"],
+  "Vista Panorâmica":["Panoramic View","Vista Panorámica"],
+  "Vivências":["Experiences & Retreats","Vivencias"],
+  "WhatsApp":["WhatsApp","WhatsApp"],
+  "Yoga":["Yoga","Yoga"],
+  "Único no Mundo":["Unique in the World","Único en el Mundo"]
+};
+const TR_TYPES = {
+  "Academia":["Gym","Gimnasio"],
+  "Aeroporto":["Airport","Aeropuerto"],
+  "Agência":["Agency","Agencia"],
+  "Agência Receptiva":["Tour Operator","Agencia Receptiva"],
+  "Aplicativo":["Ride-hailing App","Aplicación"],
+  "Artesanato":["Handicrafts","Artesanía"],
+  "Artesanato &amp; Moda Praia":["Handicrafts &amp; Beachwear","Artesanía y Moda de Playa"],
+  "Atração Natural":["Natural Attraction","Atracción Natural"],
+  "Bar & Vista":["Bar & View","Bar y Vista"],
+  "Bar &amp; Restaurante":["Bar &amp; Restaurant","Bar y Restaurante"],
+  "Bar Noturno":["Night Bar","Bar Nocturno"],
+  "Bar Praia":["Beach Bar","Bar de Playa"],
+  "Beach Bar & Kite Spot":["Beach Bar & Kite Spot","Beach Bar y Spot de Kite"],
+  "Beach Club":["Beach Club","Beach Club"],
+  "Bistrô":["Bistro","Bistró"],
+  "Boteco &amp; Bistrô":["Neighborhood Bar &amp; Bistro","Bar de Barrio y Bistró"],
+  "Churrasco":["BBQ","Parrilla"],
+  "Churrasco & Bar":["BBQ & Bar","Parrilla y Bar"],
+  "Culinária Regional":["Regional Cuisine","Cocina Regional"],
+  "Cultura & Artesanato":["Culture & Handicrafts","Cultura y Artesanía"],
+  "Ecoturismo":["Ecotourism","Ecoturismo"],
+  "Farmácia":["Pharmacy","Farmacia"],
+  "Farmácia 24h":["24h Pharmacy","Farmacia 24h"],
+  "Food Truck":["Food Truck","Food Truck"],
+  "Frutos do Mar":["Seafood","Mariscos"],
+  "Gastronomia Autoral":["Signature Cuisine","Gastronomía de Autor"],
+  "Gastronomia Franco-Brasileira":["French-Brazilian Cuisine","Gastronomía Franco-Brasileña"],
+  "Kitesurf &amp; Experiências":["Kitesurfing &amp; Experiences","Kitesurf y Experiencias"],
+  "Kitesurf, Pilates, Trilhas":["Kitesurfing, Pilates, Trails","Kitesurf, Pilates, Senderos"],
+  "Locadora":["Car Rental","Alquiler de Autos"],
+  "Locadora Nacional":["National Car Rental","Alquiler de Autos Nacional"],
+  "Massagem a Domicílio":["In-room Massage","Masaje a Domicilio"],
+  "Massoterapia":["Massage Therapy","Masoterapia"],
+  "Mototáxi":["Motorcycle Taxi","Mototaxi"],
+  "Pizza & Família":["Pizza & Family","Pizza y Familia"],
+  "Praça Gourmet":["Gourmet Food Court","Plaza Gourmet"],
+  "Professora de Yoga":["Yoga Teacher","Profesora de Yoga"],
+  "Quadriciclo":["ATV Tours","Cuatriciclo"],
+  "Quiosque Beira-Mar":["Beachfront Kiosk","Quiosco Frente al Mar"],
+  "Regional &amp; Frutos do Mar":["Regional &amp; Seafood","Regional y Mariscos"],
+  "Resort & Restaurante":["Resort & Restaurant","Resort y Restaurante"],
+  "Restaurante":["Restaurant","Restaurante"],
+  "Restaurante Pé na Areia":["Beachfront Restaurant","Restaurante Frente a la Playa"],
+  "Rooftop Bar":["Rooftop Bar","Rooftop Bar"],
+  "Salão a Domicílio":["In-room Beauty Salon","Salón a Domicilio"],
+  "Sorveteria":["Ice Cream Shop","Heladería"],
+  "Sorveteria & Cafeteria":["Ice Cream Shop & Café","Heladería y Cafetería"],
+  "Terapias Corporais":["Body Therapies","Terapias Corporales"],
+  "Terapias Corporais &amp; Holísticas":["Body & Holistic Therapies","Terapias Corporales y Holísticas"],
+  "Transfer &amp; Passeios":["Transfer &amp; Tours","Traslado y Excursiones"],
+  "Táxi":["Taxi","Taxi"],
+  "Yoga ao Ar Livre":["Outdoor Yoga","Yoga al Aire Libre"]
+};
+const TR_DESCS = {
+  "Clima praiano e gastronomia espetacular. O prato mais pedido é o baião de dois com carne de sol e tempero nordestino. Referência em culinária piauiense em Barra Grande.":["Beachy atmosphere and spectacular food. The most popular dish is the baião de dois with sun-dried beef and Northeastern seasoning. A reference for Piauí cuisine in Barra Grande.","Ambiente playero y gastronomía espectacular. El plato más pedido es el baião de dois con carne de sol y condimento nordestino. Referencia de la cocina de Piauí en Barra Grande."],
+  "Nota 4.8! Risoto de camarão, saladas frescas e atendimento que faz a diferença. <strong>A 5 km do Arrey Beach Hotel.</strong>":["4.8 rating! Shrimp risotto, fresh salads and service that makes the difference. <strong>5 km from Arrey Beach Hotel.</strong>","¡Nota 4.8! Risotto de camarones, ensaladas frescas y una atención que marca la diferencia. <strong>A 5 km del Arrey Beach Hotel.</strong>"],
+  "Nota 4.1! Carne de sol, filé e sushi em ambiente confortável, com área externa e climatizada. Atendimento atencioso e cardápio variado, do almoço ao jantar.":["4.1 rating! Sun-dried beef, steak and sushi in a comfortable setting, with outdoor and air-conditioned areas. Attentive service and varied menu, from lunch to dinner.","¡Nota 4.1! Carne de sol, filete y sushi en un ambiente cómodo, con área externa y climatizada. Atención esmerada y menú variado, desde el almuerzo hasta la cena."],
+  "Um dos mais queridos de Parnaíba. Camarão com coco, prime rib e ambiente aconchegante. <strong>7 km do Arrey Beach Hotel.</strong>":["One of Parnaíba's most beloved spots. Coconut shrimp, prime rib and a cozy atmosphere. <strong>7 km from Arrey Beach Hotel.</strong>","Uno de los lugares más queridos de Parnaíba. Camarones con coco, prime rib y ambiente acogedor. <strong>A 7 km del Arrey Beach Hotel.</strong>"],
+  "Dentro do Aeroporto Internacional de Parnaíba. Premiado como Melhores da Taça 2025. A melhor experiência gastronômica da cidade. <strong>No Aeroporto Internacional.</strong>":["Inside Parnaíba International Airport. Awarded Best of the Cup 2025. The city's best dining experience. <strong>At the International Airport.</strong>","Dentro del Aeropuerto Internacional de Parnaíba. Premiado como Mejores de la Copa 2025. La mejor experiencia gastronómica de la ciudad. <strong>En el Aeropuerto Internacional.</strong>"],
+  "Espaço kids supervisionado, música ao vivo nos fins de semana e pizzas de massa fina. Ótima opção para famílias que chegam pelo aeroporto.":["Supervised kids area, live music on weekends and thin-crust pizzas. A great option for families arriving via the airport.","Área infantil supervisada, música en vivo los fines de semana y pizzas de masa fina. Excelente opción para familias que llegan por el aeropuerto."],
+  "O lugar certo para um happy hour em Parnaíba. Churrasco de qualidade, bom ambiente e horário estendido nos fins de semana.":["The right spot for a happy hour in Parnaíba. Quality barbecue, a good atmosphere and extended hours on weekends.","El lugar ideal para un happy hour en Parnaíba. Parrilla de calidad, buen ambiente y horario extendido los fines de semana."],
+  "Beach club exclusivo na Praia do Coqueiro. Grelhados, drinks autorais, programação musical e loja de moda praia. Acessível para cadeirantes. <strong>12 km do Arrey Rio Poty.</strong>":["Exclusive beach club on Praia do Coqueiro. Grilled dishes, signature drinks, live music line-up and a beachwear shop. Wheelchair accessible. <strong>12 km from Arrey Rio Poty.</strong>","Beach club exclusivo en la Praia do Coqueiro. Parrillados, tragos de autor, programación musical y tienda de moda de playa. Accesible para sillas de ruedas. <strong>A 12 km del Arrey Rio Poty.</strong>"],
+  "O spot mais famoso para o pôr do sol na Praia do Coqueiro — barreira de corais visível na maré baixa. <strong>11 km do Arrey Rio Poty.</strong>":["The most famous sunset spot on Praia do Coqueiro — a coral reef visible at low tide. <strong>11 km from Arrey Rio Poty.</strong>","El spot más famoso para ver el atardecer en la Praia do Coqueiro — arrecife de coral visible en marea baja. <strong>A 11 km del Arrey Rio Poty.</strong>"],
+  "Mais de 5.500 avaliações! Na Praia de Atalaia — 28 restaurantes na orla. Frutos do mar frescos com vista para o oceano. <strong>1 km do Arrey Rio Poty.</strong>":["Over 5,500 reviews! On Praia de Atalaia — 28 restaurants along the waterfront. Fresh seafood with ocean views. <strong>1 km from Arrey Rio Poty.</strong>","¡Más de 5.500 reseñas! En la Praia de Atalaia — 28 restaurantes frente al mar. Mariscos frescos con vista al océano. <strong>A 1 km del Arrey Rio Poty.</strong>"],
+  "Referência em churrasco em Luís Correia. Ambiente aconchegante e familiar, pratos generosos, cerveja gelada e atendimento atencioso. <strong>3 km do Arrey Rio Poty.</strong>":["A barbecue reference in Luís Correia. Cozy, family-friendly atmosphere, generous dishes, cold beer and attentive service. <strong>3 km from Arrey Rio Poty.</strong>","Referencia de parrilla en Luís Correia. Ambiente acogedor y familiar, platos generosos, cerveza fría y atención esmerada. <strong>A 3 km del Arrey Rio Poty.</strong>"],
+  "Restaurante no resort beira-praia com pratos regionais e frutos do mar. Lagoas e dunas dos Lençóis Piauienses como pano de fundo. <strong>8 km do Arrey Rio Poty.</strong>":["Restaurant at a beachfront resort with regional dishes and seafood. Lagoons and dunes of the Lençóis Piauienses as a backdrop. <strong>8 km from Arrey Rio Poty.</strong>","Restaurante en un resort frente a la playa con platos regionales y mariscos. Lagunas y dunas de los Lençóis Piauienses de fondo. <strong>A 8 km del Arrey Rio Poty.</strong>"],
+  "<strong>#1 no TripAdvisor em Barra Grande!</strong> O melhor churrasco de BG. Ambiente descontraído, música ao vivo, delivery disponível. <strong>Na vila de BG.</strong>":["<strong>#1 on TripAdvisor in Barra Grande!</strong> The best barbecue in BG. Relaxed atmosphere, live music, delivery available. <strong>In BG village.</strong>","<strong>¡#1 en TripAdvisor en Barra Grande!</strong> La mejor parrilla de BG. Ambiente relajado, música en vivo, delivery disponible. <strong>En el pueblo de BG.</strong>"],
+  "<strong>#2 no TripAdvisor em Barra Grande!</strong> Cozinha afetiva, valorização dos produtos locais com execução contemporânea. Permita-se sentir. <strong>Pousada Titas, BG.</strong>":["<strong>#2 on TripAdvisor in Barra Grande!</strong> Heartfelt cooking, celebrating local produce with a contemporary touch. Let yourself feel it. <strong>Pousada Titas, BG.</strong>","<strong>¡#2 en TripAdvisor en Barra Grande!</strong> Cocina afectiva, que valora los productos locales con una ejecución contemporánea. Permítete sentir. <strong>Pousada Titas, BG.</strong>"],
+  "Oásis à beira-mar com bar, restaurante e escola de kitesurf. Música ambiente, pôr do sol incrível e dono fala francês. <strong>Direto na praia de kite.</strong>":["A seaside oasis with a bar, restaurant and kitesurf school. Ambient music, an incredible sunset, and the owner speaks French. <strong>Right on the kite beach.</strong>","Oasis junto al mar con bar, restaurante y escuela de kitesurf. Música ambiente, atardecer increíble y el dueño habla francés. <strong>Justo en la playa de kite.</strong>"],
+  "O point noturno mais animado de BG. Drinks artesanais com o famoso chili oil da casa. Equipe fala PT, EN, FR e ES.":["BG's liveliest night spot. Craft drinks with the house's famous chili oil. Staff speak PT, EN, FR and ES.","El punto nocturno más animado de BG. Tragos artesanales con el famoso aceite picante de la casa. El equipo habla PT, EN, FR y ES."],
+  "Bar exclusivo no rooftop do Arrey Boutique Hotel. Vista panorâmica de Barra Grande, drinks autorais e o melhor pôr do sol da vila. <strong>No Arrey Boutique Hotel.</strong>":["Exclusive rooftop bar at Arrey Boutique Hotel. Panoramic views of Barra Grande, signature drinks and the village's best sunset. <strong>At Arrey Boutique Hotel.</strong>","Bar exclusivo en el rooftop del Arrey Boutique Hotel. Vista panorámica de Barra Grande, tragos de autor y el mejor atardecer del pueblo. <strong>En el Arrey Boutique Hotel.</strong>"],
+  "Diretamente na praia de kite de Barra Grande (4 km, piscinas naturais na maré baixa). Sem taxa de consumação mínima.":["Right on Barra Grande's kite beach (4 km, natural pools at low tide). No minimum consumption fee.","Directamente en la playa de kite de Barra Grande (4 km, piscinas naturales en marea baja). Sin consumo mínimo."],
+  "Nota 5.0! Quadriciclo e UTV pelos Lençóis Piauienses — dunas douradas, lagoas cristalinas, pôr do sol épico.":["5.0 rating! ATV and UTV rides through the Lençóis Piauienses — golden dunes, crystal-clear lagoons, epic sunsets.","¡Nota 5.0! Cuatriciclo y UTV por los Lençóis Piauienses — dunas doradas, lagunas cristalinas, atardecer épico."],
+  "Agência referência no Delta do Parnaíba com Catamarã, lanchas e passeios privativos. Rota das Emoções completa (Jericoacoara → Delta → Lençóis). Equipe bilíngue (PT/EN). Música ao vivo, almoço e guias especializados em fauna e flora.":["A reference agency at the Delta do Parnaíba with catamaran, speedboats and private tours. Full Rota das Emoções (Jericoacoara → Delta → Lençóis). Bilingual staff (PT/EN). Live music, lunch and guides specialized in fauna and flora.","Agencia de referencia en el Delta do Parnaíba con catamarán, lanchas y paseos privados. Rota das Emoções completa (Jericoacoara → Delta → Lençóis). Equipo bilingüe (PT/EN). Música en vivo, almuerzo y guías especializados en fauna y flora."],
+  "Vencedora do Travelers' Choice Awards (TripAdvisor) e Selo Turismo Responsável (MTur). Operadora de receptivo com frota própria, atuando na Rota das Emoções — Delta do Parnaíba, Lençóis Maranhenses e Jericoacoara.":["Winner of the Travelers' Choice Awards (TripAdvisor) and the Responsible Tourism Seal (MTur). A ground-tour operator with its own fleet, working the Rota das Emoções — Delta do Parnaíba, Lençóis Maranhenses and Jericoacoara.","Ganadora de los Travelers' Choice Awards (TripAdvisor) y del Sello de Turismo Responsable (MTur). Operadora receptiva con flota propia, que recorre la Rota das Emoções — Delta do Parnaíba, Lençóis Maranhenses y Jericoacoara."],
+  "Passeios de lancha pelo Delta do Parnaíba saindo do Porto dos Tatus, com embarcações credenciadas pela Marinha do Brasil. Turismo seguro para toda a família.":["Speedboat tours through the Delta do Parnaíba departing from Porto dos Tatus, with vessels certified by the Brazilian Navy. Safe tourism for the whole family.","Paseos en lancha por el Delta do Parnaíba saliendo de Porto dos Tatus, con embarcaciones certificadas por la Marina de Brasil. Turismo seguro para toda la familia."],
+  "Transfer e passeios pelo Delta do Parnaíba e litoral piauiense, com parceria para transporte em Luís Correia e Barra Grande.":["Transfer and tours through the Delta do Parnaíba and the Piauí coastline, with partner transport in Luís Correia and Barra Grande.","Traslados y paseos por el Delta do Parnaíba y el litoral de Piauí, con transporte asociado en Luís Correia y Barra Grande."],
+  "Canecas, copos, taças, camisas, azulejo decorado, relógio, xícara, chaveiro, chinela.":["Mugs, glasses, goblets, T-shirts, decorated tiles, clocks, cups, keychains, flip-flops.","Tazas, vasos, copas, camisetas, azulejos decorados, relojes, tazas de té, llaveros, chinelas."],
+  "Esculturas em talo e cabeça da Carnaúba.":["Sculptures made from carnaúba palm stalks and heads.","Esculturas hechas con tallos y cabezas de la palmera carnaúba."],
+  "Tapetes, toalhas de mesa, jogos americanos, bolsas, chaveiros, amigurumi.":["Rugs, tablecloths, placemats, bags, keychains, amigurumi.","Alfombras, manteles, individuales, bolsos, llaveros, amigurumi."],
+  "Pintura e costura criativa em tela e tecido.":["Painting and creative sewing on canvas and fabric.","Pintura y costura creativa sobre lienzo y tela."],
+  "Pelúcias, bonecas, bolsas, peso de porta, pano de prato.":["Plush toys, dolls, bags, doorstops, kitchen towels.","Peluches, muñecas, bolsos, tope de puerta, paños de cocina."],
+  "Cestos, bolsas e tapetes em palha da Carnaúba e taboa.":["Baskets, bags and rugs made from carnaúba palm straw and cattail.","Cestas, bolsos y alfombras de paja de carnaúba y totora."],
+  "Bolsas, brincos e colares em fibra da banana, sementes, conchas e búzios.":["Bags, earrings and necklaces made from banana fiber, seeds, shells and cowries.","Bolsos, aretes y collares de fibra de banano, semillas, conchas y caracoles."],
+  "Mandalas, filtros dos sonhos, luminárias e esculturas em biscuit, conchas, areia da praia, linha encerada, búzios, casca de marisco, casca da ostra e areia grossa.":["Mandalas, dreamcatchers, lamps and sculptures made from cold porcelain, shells, beach sand, waxed thread, cowries, mussel and oyster shells, and coarse sand.","Mandalas, atrapasueños, lámparas y esculturas en porcelana fría, conchas, arena de playa, hilo encerado, caracoles, cáscara de marisco, cáscara de ostra y arena gruesa."],
+  "Tiaras, fivelas, canetas, lápis e chaveiros decorados.":["Headbands, hair clips, decorated pens, pencils and keychains.","Diademas, hebillas, bolígrafos, lápices y llaveros decorados."],
+  "Esculturas em biscuit.":["Cold porcelain sculptures.","Esculturas en porcelana fría."],
+  "Tapetes, sofás, poltronas, puff, espelhos, lustres, mandalas, bancos e mesas em Carnaúba.":["Rugs, sofas, armchairs, poufs, mirrors, chandeliers, mandalas, stools and tables made from carnaúba palm.","Alfombras, sofás, sillones, pufs, espejos, lámparas, mandalas, bancos y mesas de palmera carnaúba."],
+  "Laços, faixas para bebês, tiaras, fivelas, chaveiros e pulseiras.":["Bows, baby headbands, headbands, hair clips, keychains and bracelets.","Lazos, vinchas para bebés, diademas, hebillas, llaveros y pulseras."],
+  "Pinturas, biscuit e brincos em tela, escamas de peixe, conchas e búzios.":["Paintings, cold porcelain pieces and earrings made on canvas, fish scales, shells and cowries.","Pinturas, piezas en porcelana fría y aretes hechos en lienzo, escamas de pescado, conchas y caracoles."],
+  "Esculturas, sofás, poltronas, mesas e cestas feitas com pneus reciclados.":["Sculptures, sofas, armchairs, tables and baskets made from recycled tires.","Esculturas, sofás, sillones, mesas y cestas hechas con neumáticos reciclados."],
+  "Quadros e molduras com cordas velhas, madeira de embarcação e palha da Carnaúba.":["Paintings and frames made from old ropes, boat wood and carnaúba palm straw.","Cuadros y marcos hechos con cuerdas viejas, madera de embarcación y paja de carnaúba."],
+  "Cestos, tapetes, mandalas, bolsas e lustres em palha da Carnaúba.":["Baskets, rugs, mandalas, bags and chandeliers made from carnaúba palm straw.","Cestas, alfombras, mandalas, bolsos y lámparas de paja de carnaúba."],
+  "Landuá e jiqui em linha de saco de cebola e corda de seda.":["Traditional landuá and jiqui fishing nets made from onion-sack thread and silk cord.","Redes de pesca tradicionales landuá y jiqui hechas con hilo de saco de cebolla y cuerda de seda."],
+  "Jarros e esculturas em argila.":["Clay jugs and sculptures.","Jarrones y esculturas de arcilla."],
+  "Toalhas de mesa, jogo americano, porta ovos e pano de prato em crochê.":["Crocheted tablecloths, placemats, egg holders and kitchen towels.","Manteles, individuales, huevera y paños de cocina tejidos a crochet."],
+  "Escultura em madeira estilo primitivo e óleo sobre tela.":["Primitive-style wood sculpture and oil-on-canvas painting.","Escultura en madera de estilo primitivo y óleo sobre lienzo."],
+  "Ventosa deslizante sem marcas e massagem dos pés — perfeito após kite ou caminhadas nas dunas dos Lençóis.":["Mark-free gliding cupping therapy and foot massage — perfect after kiting or walks on the Lençóis dunes.","Ventosaterapia deslizante sin marcas y masaje de pies — perfecto después de kite o caminatas por las dunas de los Lençóis."],
+  "Escola de kitesurf em Barra Grande com aulas para todos os níveis e experiências guiadas, aproveitando os melhores ventos do litoral piauiense (julho a janeiro).":["Kitesurf school in Barra Grande with classes for all levels and guided experiences, taking advantage of the best winds on the Piauí coast (July to January).","Escuela de kitesurf en Barra Grande con clases para todos los niveles y experiencias guiadas, aprovechando los mejores vientos del litoral de Piauí (de julio a enero)."],
+  "Aulas de yoga na praia de Barra Grande ao amanhecer — experiência única de hatha yoga com vista para o mar. Instrutores certificados. Aulas para iniciantes e avançados. Perfeito para hóspedes que buscam equilíbrio e mindfulness.":["Sunrise yoga classes on Barra Grande beach — a unique hatha yoga experience with sea views. Certified instructors. Classes for beginners and advanced students. Perfect for guests seeking balance and mindfulness.","Clases de yoga al amanecer en la playa de Barra Grande — una experiencia única de hatha yoga con vista al mar. Instructores certificados. Clases para principiantes y avanzados. Perfecto para huéspedes que buscan equilibrio y mindfulness."],
+  "Professora de Yoga &amp; Facilitadora do Templo Devī. Aulas de yoga online e presenciais, vivências, aulões na praia e rituais femininos.":["Yoga Teacher &amp; Facilitator at Templo Devī. Online and in-person yoga classes, retreats, beach yoga sessions and women's rituals.","Profesora de Yoga y Facilitadora del Templo Devī. Clases de yoga online y presenciales, vivencias, clases masivas en la playa y rituales femeninos."],
+  "Nota PERFEITA 5.0! Terapia corporal, massagem, aromaterapia e essências brasileiras. A terapeuta Tacher é descrita como \"técnica incrível e difícil de encontrar\". Ambiente que \"exala paz\" — perfeito após kite ou dia de praia.":["PERFECT 5.0 rating! Body therapy, massage, aromatherapy and Brazilian essences. Therapist Tacher is described as having \"incredible, hard-to-find technique.\" An atmosphere that \"exudes peace\" — perfect after kiting or a beach day.","¡Nota PERFECTA 5.0! Terapia corporal, masaje, aromaterapia y esencias brasileñas. La terapeuta Tacher es descrita como de \"técnica increíble y difícil de encontrar\". Un ambiente que \"exhala paz\" — perfecto después de kite o un día de playa."],
+  "A sorveteria queridinha de Barra Grande. Sabores tropicais e regionais que refrescam após um dia de sol e kite.":["Barra Grande's beloved ice cream shop. Tropical and regional flavors that refresh you after a day of sun and kiting.","La heladería favorita de Barra Grande. Sabores tropicales y regionales que refrescan después de un día de sol y kite."],
+  "Serviços de beleza a domicílio em Barra Grande — penteados, maquiagem e tratamentos no conforto do seu hotel. Agende pelo WhatsApp.":["In-room beauty services in Barra Grande — hairstyling, makeup and treatments in the comfort of your hotel. Book via WhatsApp.","Servicios de belleza a domicilio en Barra Grande — peinados, maquillaje y tratamientos en la comodidad de tu hotel. Reserva por WhatsApp."],
+  "Massagem relaxante e recuperação muscular a domicílio — perfeito após kite, surf ou um dia de praia. Atende em Barra Grande.":["In-room relaxing massage and muscle recovery — perfect after kiting, surfing or a beach day. Serving Barra Grande.","Masaje relajante y recuperación muscular a domicilio — perfecto después de kite, surf o un día de playa. Atiende en Barra Grande."],
+  "Rede nacional de academias com equipamentos modernos e planos acessíveis. Musculação, cardio e aulas coletivas. A melhor opção para manter a rotina fitness durante a viagem.":["National gym chain with modern equipment and affordable plans. Weight training, cardio and group classes. The best option for keeping up your fitness routine while traveling.","Cadena nacional de gimnasios con equipos modernos y planes accesibles. Musculación, cardio y clases grupales. La mejor opción para mantener tu rutina fitness durante el viaje."],
+  "Academia tradicional de Parnaíba com atendimento personalizado e ambiente acolhedor. Musculação e orientação profissional.":["A traditional gym in Parnaíba with personalized service and a welcoming atmosphere. Weight training and professional guidance.","Gimnasio tradicional de Parnaíba con atención personalizada y ambiente acogedor. Musculación y orientación profesional."],
+  "Academia completa em Luís Correia, no centro da cidade das praias. Horário estendido para você manter o ritmo mesmo nas férias.":["A full-service gym in Luís Correia, in the center of this beach town. Extended hours so you can keep up your pace even on vacation.","Gimnasio completo en Luís Correia, en el centro de la ciudad de las playas. Horario extendido para que mantengas el ritmo incluso de vacaciones."],
+  "Rede tradicional de Parnaíba, há mais de 20 anos no mercado fitness. Unidade Aeroporto com musculação, cardio e aulas coletivas.":["A traditional Parnaíba chain, with over 20 years in the fitness market. The Airport unit offers weight training, cardio and group classes.","Cadena tradicional de Parnaíba, con más de 20 años en el mercado fitness. La unidad Aeropuerto ofrece musculación, cardio y clases grupales."],
+  "Academia completa com musculação, muay thai, jiu-jitsu, karatê, MMA e boxe. Estrutura ampla na Av. Nossa Senhora de Fátima.":["A full-service gym with weight training, muay thai, jiu-jitsu, karate, MMA and boxing. Spacious facility on Av. Nossa Senhora de Fátima.","Gimnasio completo con musculación, muay thai, jiu-jitsu, kárate, MMA y boxeo. Amplias instalaciones en la Av. Nossa Senhora de Fátima."],
+  "A mais bem avaliada de Parnaíba (4.9★). Carros novos, entrega no Aeroporto Internacional, sem burocracia.":["The highest-rated in Parnaíba (4.9★). New cars, delivery at the International Airport, hassle-free.","La mejor calificada de Parnaíba (4.9★). Autos nuevos, entrega en el Aeropuerto Internacional, sin burocracia."],
+  "Até 3× mais barato que grandes redes. Ágil, carros novos e processo descomplicado.":["Up to 3× cheaper than major chains. Fast, new cars and an uncomplicated process.","Hasta 3 veces más barato que las grandes cadenas. Ágil, autos nuevos y proceso sin complicaciones."],
+  "O app de transporte mais usado em Parnaíba e Luís Correia. <strong>Negocie o preço diretamente com o motorista</strong> — sem taxas surpresa. Mais econômico que táxi convencional, com pagamento em dinheiro ou cartão. Instale antes de chegar!":["The most-used ride-hailing app in Parnaíba and Luís Correia. <strong>Negotiate the fare directly with the driver</strong> — no surprise fees. More affordable than a conventional taxi, with cash or card payment. Install it before you arrive!","La aplicación de transporte más usada en Parnaíba y Luís Correia. <strong>Negocia el precio directamente con el conductor</strong> — sin tarifas sorpresa. Más económico que un taxi convencional, con pago en efectivo o tarjeta. ¡Instálala antes de llegar!"],
+  "A maior locadora do Brasil presente em Parnaíba. Frota moderna com compactos, sedãs e SUVs. Sem burocracia — entrega no aeroporto de Parnaíba. Aceita cartão de crédito. Reserva online disponível.":["Brazil's largest car rental company, present in Parnaíba. Modern fleet with compact cars, sedans and SUVs. Hassle-free — delivery at Parnaíba airport. Credit cards accepted. Online booking available.","La mayor rentadora de autos de Brasil, presente en Parnaíba. Flota moderna con compactos, sedanes y SUVs. Sin burocracia — entrega en el aeropuerto de Parnaíba. Acepta tarjeta de crédito. Reserva online disponible."],
+  "Táxi de confiança em Luís Correia. Atende no aeroporto, hotéis e passeios. Indicado pela equipe Arrey Hotels.":["A trusted taxi service in Luís Correia. Serves the airport, hotels and tours. Recommended by the Arrey Hotels team.","Taxi de confianza en Luís Correia. Atiende en el aeropuerto, hoteles y paseos. Recomendado por el equipo de Arrey Hotels."],
+  "Mototáxi rápido para deslocamentos rápidos em Luís Correia e proximidades. Econômico e ágil.":["Fast motorcycle taxi for quick trips in and around Luís Correia. Affordable and speedy.","Mototaxi rápido para desplazamientos ágiles en Luís Correia y alrededores. Económico y veloz."],
+  "Táxi experiente em Luís Correia, conhece todos os pontos turísticos e restaurantes da cidade.":["An experienced taxi driver in Luís Correia, who knows all the city's tourist spots and restaurants.","Taxi con experiencia en Luís Correia, conoce todos los puntos turísticos y restaurantes de la ciudad."],
+  "Táxi disponível para transfer aeroporto, passeios pela região e deslocamentos intermunicipais no litoral.":["A taxi available for airport transfers, regional tours and inter-city trips along the coast.","Taxi disponible para traslados al aeropuerto, paseos por la región y desplazamientos intermunicipales en el litoral."],
+  "O táxi de referência em Luís Correia — leva e busca nas praias de Atalaia, Coqueiro, Macapá e arredores.":["The go-to taxi in Luís Correia — pick-up and drop-off at Atalaia, Coqueiro, Macapá beaches and surroundings.","El taxi de referencia en Luís Correia — lleva y trae a las playas de Atalaia, Coqueiro, Macapá y alrededores."],
+  "Referência em torta de caranguejo — o prato mais típico de Parnaíba. Preço justo e atendimento no Porto das Barcas. Experiência gastronômica autêntica.":["A reference for crab pie — Parnaíba's most typical dish. Fair prices and service at Porto das Barcas. An authentic dining experience.","Referencia en pastel de cangrejo — el plato más típico de Parnaíba. Precio justo y atención en el Porto das Barcas. Una experiencia gastronómica auténtica."],
+  "Tombada pelo patrimônio afetivo de Parnaíba. Sabores regionais: cajá, murici, bacuri e tapioca. Filial no Porto das Barcas. Perfeita para o calor piauiense.":["Recognized as part of Parnaíba's cherished heritage. Regional flavors: cajá, murici, bacuri and tapioca. Branch at Porto das Barcas. Perfect for the Piauí heat.","Reconocida como parte del patrimonio afectivo de Parnaíba. Sabores regionales: cajá, murici, bacuri y tapioca. Sucursal en el Porto das Barcas. Perfecta para el calor de Piauí."],
+  "Food truck premiado com visual único — pintura inspirada no chão rachado do sertão. As proprietárias se vestem de cangaceiras. Tapiocas com recheios generosos e regionais.":["An award-winning food truck with a unique look — its paintwork is inspired by the cracked earth of the sertão. The owners dress as cangaceiras. Tapiocas with generous, regional fillings.","Food truck premiado con un aspecto único — pintura inspirada en el suelo agrietado del sertão. Las propietarias se visten de cangaceiras. Tapiocas con rellenos generosos y regionales."],
+  "O cartão postal de Parnaíba. Casarões históricos do século XIX, Museu do Mar do Delta do Parnaíba (maior do PI), artesanato local e gastronomia. Visita obrigatória. Acesso gratuito.":["Parnaíba's postcard image. 19th-century historic mansions, the Museu do Mar do Delta do Parnaíba (the largest in Piauí), local crafts and dining. A must-visit. Free admission.","La postal de Parnaíba. Casonas históricas del siglo XIX, el Museu do Mar do Delta do Parnaíba (el mayor de Piauí), artesanía local y gastronomía. Visita obligatoria. Entrada gratuita."],
+  "Praça de alimentação gourmet em espaço amplo e descontraído. Várias opções de cozinha reunidas em um só lugar. Boa para grupos e famílias.":["A gourmet food court in a spacious, relaxed setting. Several cuisine options gathered in one place. Great for groups and families.","Plaza de comidas gourmet en un espacio amplio y relajado. Varias opciones de cocina reunidas en un solo lugar. Ideal para grupos y familias."],
+  "Quiosque beira-mar na Praia do Macapá, a mais tranquila de Luís Correia. Vista linda, bom atendimento e clima familiar. Indicado para casais e famílias.":["A beachfront kiosk on Praia do Macapá, the quietest beach in Luís Correia. Beautiful views, good service and a family atmosphere. Recommended for couples and families.","Quiosco frente al mar en la Praia do Macapá, la más tranquila de Luís Correia. Vista hermosa, buena atención y ambiente familiar. Recomendado para parejas y familias."],
+  "Lagoa de água doce cristalina nos Lençóis Piauienses, rodeada por dunas douradas. Um dos pontos turísticos mais bonitos do litoral. Passeio de 4x4 recomendado para acesso.":["A crystal-clear freshwater lagoon in the Lençóis Piauienses, surrounded by golden dunes. One of the coast's most beautiful tourist spots. A 4x4 ride is recommended for access.","Laguna de agua dulce cristalina en los Lençóis Piauienses, rodeada de dunas doradas. Uno de los puntos turísticos más bellos del litoral. Se recomienda un paseo en 4x4 para acceder."],
+  "Nota PERFEITA 5.0! Terapia corporal, massagem relaxante e terapêutica. A terapeuta Tacher é descrita como \"incrível e com técnica difícil de encontrar\". Ambiente que \"exala paz\".":["PERFECT 5.0 rating! Body therapy, relaxing and therapeutic massage. Therapist Tacher is described as \"incredible, with hard-to-find technique.\" An atmosphere that \"exudes peace.\"","¡Nota PERFECTA 5.0! Terapia corporal, masaje relajante y terapéutico. La terapeuta Tacher es descrita como \"increíble y con técnica difícil de encontrar\". Un ambiente que \"exhala paz\"."],
+  "Nota 5.0! Kitesurf, fat bike, caiaque, trilhas, pilates e tour fotográfico. O instrutor Bosco é referência — \"extremamente preparado, com anos de experiência, faz o aluno se sentir seguro\".":["5.0 rating! Kitesurfing, fat biking, kayaking, trails, pilates and photo tours. Instructor Bosco is a reference — \"extremely prepared, with years of experience, makes the student feel safe.\"","¡Nota 5.0! Kitesurf, fat bike, kayak, senderos, pilates y tour fotográfico. El instructor Bosco es una referencia — \"extremadamente preparado, con años de experiencia, hace que el alumno se sienta seguro\"."],
+  "Conceito \"pé na areia\" com pratos regionais piauienses para todos os tamanhos — do casal à família. O Baião da Villa (carne de sol + queijo coalho + couve + banana) é sensação.":["A \"feet in the sand\" concept with Piauí regional dishes for every group size — from couples to families. The Baião da Villa (sun-dried beef + coalho cheese + collard greens + banana) is a hit.","Concepto \"pies en la arena\" con platos regionales de Piauí para todos los tamaños de grupo — desde parejas hasta familias. El Baião da Villa (carne de sol + queso coalho + col + banana) es un éxito."],
+  "Chef Hervé Witmeur (franco-brasileiro) comanda cozinha aberta. Prato destaque: \"Fazenda ao Mar\" — robalo de linha grelhado com pesto de rúcula e purê de berinjela.":["Chef Hervé Witmeur (French-Brazilian) runs the open kitchen. Signature dish: \"Fazenda ao Mar\" — line-caught grilled sea bass with arugula pesto and eggplant purée.","El chef Hervé Witmeur (franco-brasileño) dirige la cocina abierta. Plato destacado: \"Fazenda ao Mar\" — róbalo de anzuelo a la parrilla con pesto de rúcula y puré de berenjena."],
+  "O maior cajueiro do mundo — mais de 200 anos e 8.832 m² de copa, tudo de uma única árvore. Os galhos caem ao solo e criam novas raízes. Visita imperdível e gratuita.":["The world's largest cashew tree — over 200 years old with an 8,832 m² canopy, all from a single tree. Its branches touch the ground and grow new roots. A must-see, free visit.","El cajueiro más grande del mundo — más de 200 años y 8.832 m² de copa, todo de un único árbol. Sus ramas tocan el suelo y generan nuevas raíces. Visita imperdible y gratuita."],
+  "Passeio exclusivo para observar cavalos-marinhos em seu habitat natural — um dos poucos lugares no Brasil onde isso é possível. Berçário de peixe-boi marinho no Rio Timonha.":["An exclusive tour to observe seahorses in their natural habitat — one of the few places in Brazil where this is possible. A marine manatee nursery on the Rio Timonha.","Paseo exclusivo para observar caballitos de mar en su hábitat natural — uno de los pocos lugares de Brasil donde esto es posible. Vivero de manatíes marinos en el Río Timonha."],
+  "Restaurante local em Barra Grande com culinária regional e frutos do mar frescos. Ambiente descontraído na vila.":["A local restaurant in Barra Grande with regional cuisine and fresh seafood. A relaxed atmosphere in the village.","Restaurante local en Barra Grande con cocina regional y mariscos frescos. Ambiente relajado en el pueblo."],
+  "Bar e restaurante com ambiente agradável em Barra Grande. Boa opção para drinks e petiscos à beira da vila.":["A bar and restaurant with a pleasant atmosphere in Barra Grande. A good option for drinks and bar snacks on the edge of the village.","Bar y restaurante con ambiente agradable en Barra Grande. Buena opción para tragos y tapas a orillas del pueblo."],
+  "A farmácia de referência em Barra Grande. Atendimento via WhatsApp para comodidade dos hóspedes.":["The go-to pharmacy in Barra Grande. WhatsApp service for guests' convenience.","La farmacia de referencia en Barra Grande. Atención por WhatsApp para comodidad de los huéspedes."],
+  "A sorveteria queridinha de Barra Grande. Sabores tropicais e regionais que refrescam depois de um dia de sol e kite. Ponto de encontro da vila.":["Barra Grande's beloved ice cream shop. Tropical and regional flavors that refresh you after a day of sun and kiting. The village meeting point.","La heladería favorita de Barra Grande. Sabores tropicales y regionales que refrescan después de un día de sol y kite. Punto de encuentro del pueblo."],
+  "Profissional de beleza que atende a domicílio em Barra Grande. Penteados, maquiagem e tratamentos — conforto do seu hotel ou pousada. Agende pelo WhatsApp.":["A beauty professional offering in-room service in Barra Grande. Hairstyling, makeup and treatments — in the comfort of your hotel or guesthouse. Book via WhatsApp.","Profesional de belleza que atiende a domicilio en Barra Grande. Peinados, maquillaje y tratamientos — en la comodidad de tu hotel o posada. Reserva por WhatsApp."],
+  "Massagista especializada em relaxamento e recuperação muscular. Atende a domicílio em Barra Grande — leva os equipamentos até você. Perfeito após kite ou dia de praia.":["A masseuse specialized in relaxation and muscle recovery. In-room service in Barra Grande — she brings the equipment to you. Perfect after kiting or a beach day.","Masajista especializada en relajación y recuperación muscular. Atiende a domicilio en Barra Grande — lleva el equipo hasta ti. Perfecto después de kite o un día de playa."],
+  "Artesanato autêntico na praia de Barra Grande — peças únicas feitas à mão com materiais da região. Uma das referências em artesanato da vila.":["Authentic handicrafts on Barra Grande beach — unique pieces handmade with local materials. One of the village's leading craft shops.","Artesanía auténtica en la playa de Barra Grande — piezas únicas hechas a mano con materiales de la región. Una de las referencias en artesanía del pueblo."],
+  "Artesanato e moda praia em Barra Grande. Peças exclusivas inspiradas na cultura kite e no estilo de vida da vila. Excelente para presentes e lembranças.":["Handicrafts and beachwear in Barra Grande. Exclusive pieces inspired by kite culture and the village lifestyle. Excellent for gifts and souvenirs.","Artesanía y moda de playa en Barra Grande. Piezas exclusivas inspiradas en la cultura del kite y el estilo de vida del pueblo. Excelente para regalos y recuerdos."],
+  "Rede nacional de farmácias. Aberta 24h em Parnaíba, com amplo estoque de medicamentos e produtos de saúde.":["A national pharmacy chain. Open 24h in Parnaíba, with a wide stock of medicines and health products.","Cadena nacional de farmacias. Abierta 24h en Parnaíba, con amplio stock de medicamentos y productos de salud."],
+  "Farmácia Drogasil em Parnaíba com atendimento de qualidade e amplo estoque. Horário estendido todos os dias.":["Drogasil pharmacy in Parnaíba with quality service and a wide stock. Extended hours every day.","Farmacia Drogasil en Parnaíba con atención de calidad y amplio stock. Horario extendido todos los días."],
+  "Farmácia de referência em Parnaíba com atendimento atencioso e produtos de saúde e beleza.":["A go-to pharmacy in Parnaíba with attentive service and health and beauty products.","Farmacia de referencia en Parnaíba con atención esmerada y productos de salud y belleza."],
+  "Farmácia de confiança em Luís Correia com preços acessíveis e atendimento personalizado.":["A trusted pharmacy in Luís Correia with affordable prices and personalized service.","Farmacia de confianza en Luís Correia con precios accesibles y atención personalizada."],
+  "Farmácia na orla de Atalaia, a praia mais movimentada de Luís Correia. Conveniente para hóspedes do Arrey Rio Poty Hotel.":["A pharmacy on the Atalaia waterfront, Luís Correia's busiest beach. Convenient for Arrey Rio Poty Hotel guests.","Farmacia en el frente de la playa de Atalaia, la más concurrida de Luís Correia. Conveniente para los huéspedes del Arrey Rio Poty Hotel."],
+  "A farmácia de referência em Barra Grande. Atende via WhatsApp para maior comodidade dos hóspedes.":["The go-to pharmacy in Barra Grande. Serves via WhatsApp for guests' greater convenience.","La farmacia de referencia en Barra Grande. Atiende por WhatsApp para mayor comodidad de los huéspedes."]
+};
+const TR_HCARDS = {
+  "A 5 km das praias — piscina, beach tênis, academia e auditório. Porta de entrada para o Delta do Parnaíba e os Lençóis Piauienses.":["5 km from the beaches — pool, beach tennis, gym and auditorium. The gateway to the Delta do Parnaíba and the Lençóis Piauienses.","A 5 km de las playas — piscina, beach tenis, gimnasio y auditorio. La puerta de entrada al Delta do Parnaíba y los Lençóis Piauienses."],
+  "Praia de Atalaia a 1 km · Praia do Coqueiro a 3 km · Praia das Tartarugas a 5 km. Base ideal para as 10 praias de Luís Correia.":["Praia de Atalaia 1 km away · Praia do Coqueiro 3 km away · Praia das Tartarugas 5 km away. The ideal base for Luís Correia's 10 beaches.","Praia de Atalaia a 1 km · Praia do Coqueiro a 3 km · Praia das Tartarugas a 5 km. Base ideal para las 10 playas de Luís Correia."],
+  "No coração de Barra Grande — capital do kitesurf, destino com lindos hotéis boutique. O Arrey Boutique Hotel se destaca com o <strong>Vista Bar</strong> no rooftop com panorama de 360° da vila e do oceano.":["In the heart of Barra Grande — the kitesurfing capital, a destination with beautiful boutique hotels. Arrey Boutique Hotel stands out with its rooftop <strong>Vista Bar</strong>, offering a 360° view of the village and the ocean.","En el corazón de Barra Grande — la capital del kitesurf, un destino con hermosos hoteles boutique. El Arrey Boutique Hotel se destaca con el <strong>Vista Bar</strong> en el rooftop, con una vista panorámica de 360° del pueblo y el océano."]
+};
+const TR_HOURS = {
+  "Aberta 24 horas":["Open 24 hours","Abierta 24 horas"],
+  "Todos os dias":["Every day","Todos los días"],
+  "Aulas ao amanhecer (6h–7h30) sob agendamento":["Sunrise classes (6am–7:30am) by appointment","Clases al amanecer (6h–7h30) con reserva previa"],
+  "Seg/Qua–Dom 11h30–23h | Fecha Terça":["Mon/Wed–Sun 11:30am–11pm | Closed Tuesday","Lun/Mié–Dom 11h30–23h | Cierra Martes"],
+  "Seg–Dom 11h–15h / 18h–00h":["Mon–Sun 11am–3pm / 6pm–12am","Lun–Dom 11h–15h / 18h–00h"],
+  "Seg–Qui 11h–18h30 | Sex–Dom 11h–19h · Pet friendly":["Mon–Thu 11am–6:30pm | Fri–Sun 11am–7pm · Pet friendly","Lun–Jue 11h–18h30 | Vie–Dom 11h–19h · Pet friendly"],
+  "Seg–Sex 05h–23h | Sáb 08h–18h | Dom 07h–12h":["Mon–Fri 5am–11pm | Sat 8am–6pm | Sun 7am–12pm","Lun–Vie 05h–23h | Sáb 08h–18h | Dom 07h–12h"],
+  "Seg–Sex 05h–23h59 | Sáb 08h–17h | Dom 08h–14h":["Mon–Fri 5am–11:59pm | Sat 8am–5pm | Sun 8am–2pm","Lun–Vie 05h–23h59 | Sáb 08h–17h | Dom 08h–14h"],
+  "Seg–Sex 09h–18h":["Mon–Fri 9am–6pm","Lun–Vie 09h–18h"],
+  "Seg–Sex 8h–18h | Sáb 8h–12h":["Mon–Fri 8am–6pm | Sat 8am–12pm","Lun–Vie 8h–18h | Sáb 8h–12h"],
+  "Seg–Sex 8h–19h · Sáb 8h–12h":["Mon–Fri 8am–7pm · Sat 8am–12pm","Lun–Vie 8h–19h · Sáb 8h–12h"],
+  "Ter–Dom 11h–14h / 18h–23h30":["Tue–Sun 11am–2pm / 6pm–11:30pm","Mar–Dom 11h–14h / 18h–23h30"],
+  "Ter–Dom 12h–16h / 19h–23h | Fecha Segunda":["Tue–Sun 12pm–4pm / 7pm–11pm | Closed Monday","Mar–Dom 12h–16h / 19h–23h | Cierra Lunes"],
+  "Ter–Dom 17h30–23h | Fecha Segunda":["Tue–Sun 5:30pm–11pm | Closed Monday","Mar–Dom 17h30–23h | Cierra Lunes"],
+  "Ter–Dom 18h–00h | Fecha Segunda":["Tue–Sun 6pm–12am | Closed Monday","Mar–Dom 18h–00h | Cierra Lunes"],
+  "Todos os dias 07h–23h":["Every day 7am–11pm","Todos los días 07h–23h"],
+  "Todos os dias 11h–22h":["Every day 11am–10pm","Todos los días 11h–22h"],
+  "Todos os dias 17h–22h":["Every day 5pm–10pm","Todos los días 17h–22h"],
+  "Todos os dias 6h–21h":["Every day 6am–9pm","Todos los días 6h–21h"],
+  "Todos os dias 7h–19h":["Every day 7am–7pm","Todos los días 7h–19h"],
+  "Todos os dias 8h–18h":["Every day 8am–6pm","Todos los días 8h–18h"],
+  "Todos os dias 8h–21h":["Every day 8am–9pm","Todos los días 8h–21h"],
+  "Todos os dias 9h–18h":["Every day 9am–6pm","Todos los días 9h–18h"],
+  "0800 979 2020 (central) · Seg–Sex 8h–18h · Sáb 8h–15h":["0800 979 2020 (call center) · Mon–Fri 8am–6pm · Sat 8am–3pm","0800 979 2020 (central) · Lun–Vie 8h–18h · Sáb 8h–15h"],
+  "Acessibilidade total · Cadeiras anfíbias para banho de mar":["Full accessibility · Amphibious beach wheelchairs available","Accesibilidad total · Sillas anfibias para baño de mar"]
+};
+const TR_LABELS = {
+  'Mapa':['Map','Mapa'],
+  'Ver no Mapa':['View on Map','Ver en el Mapa'],
+  'Ver Praia':['View Beach','Ver Playa'],
+  'Ver Mapa':['View Map','Ver Mapa']
+};
+
+function pickTr(text, dict, lang){
+  if(lang==='pt' || !text) return text;
+  var entry = dict[text];
+  if(!entry) return text;
+  return lang==='en' ? entry[0] : entry[1];
+}
+
+function translateEstablishments(lang){
+  document.querySelectorAll('.pcard-desc').forEach(function(el){
+    if(!el.hasAttribute('data-orig')) el.setAttribute('data-orig', el.innerHTML);
+    el.innerHTML = pickTr(el.getAttribute('data-orig'), TR_DESCS, lang);
+  });
+  document.querySelectorAll('.hcard-desc').forEach(function(el){
+    if(!el.hasAttribute('data-orig')) el.setAttribute('data-orig', el.innerHTML);
+    el.innerHTML = pickTr(el.getAttribute('data-orig'), TR_HCARDS, lang);
+  });
+  document.querySelectorAll('.ptag').forEach(function(el){
+    if(!el.hasAttribute('data-orig')) el.setAttribute('data-orig', el.textContent);
+    el.textContent = pickTr(el.getAttribute('data-orig'), TR_TAGS, lang);
+  });
+  document.querySelectorAll('.pcard-type').forEach(function(el){
+    if(!el.hasAttribute('data-orig')) el.setAttribute('data-orig', el.innerHTML);
+    var orig = el.getAttribute('data-orig');
+    var parts = orig.split('·');
+    parts[0] = pickTr(parts[0].trim(), TR_TYPES, lang) + (parts.length>1 ? ' ' : '');
+    el.innerHTML = parts.join('·');
+  });
+  document.querySelectorAll('.pinfo').forEach(function(el){
+    if(!el.hasAttribute('data-orig')) el.setAttribute('data-orig', el.innerHTML);
+    var orig = el.getAttribute('data-orig');
+    var m = orig.match(/^(<span class="pi-ico">[^<]*<\/span>)(.*)$/);
+    if(m){
+      var ico = m[1], txt = m[2].trim();
+      var tr = pickTr(txt, TR_HOURS, lang);
+      el.innerHTML = ico + tr;
+    } else {
+      var m2 = orig.match(/^(\p{Emoji_Presentation}\s*)(.*)$/u);
+      if(m2){
+        var tr2 = pickTr(m2[2].trim(), TR_HOURS, lang);
+        el.innerHTML = m2[1] + tr2;
+      } else {
+        el.innerHTML = pickTr(orig.trim(), TR_HOURS, lang);
+      }
+    }
+  });
+  document.querySelectorAll('.b-wa, .b-map').forEach(function(el){
+    if(!el.hasAttribute('data-orig')) el.setAttribute('data-orig', el.innerHTML);
+    var orig = el.getAttribute('data-orig');
+    var m = orig.match(/^([^\sA-Za-zÀ-ÿ]*\s*)(.*)$/);
+    if(m && TR_LABELS[m[2].trim()]){
+      el.innerHTML = m[1] + pickTr(m[2].trim(), TR_LABELS, lang);
+    }
+  });
+}
+
+
+// ===== TRADUÇÃO DE CONTEÚDO ESTÁTICO (Explore, História, Grupo Arrey, Eventos/Agenda, Emergência) =====
+const TR_STATIC = {
+  "Hotéis Arrey":["Arrey Hotels","Hoteles Arrey"],
+  "Restaurantes &amp; Bares":["Restaurants &amp; Bars","Restaurantes y Bares"],
+  "Passeios &amp; Aventuras":["Tours &amp; Adventures","Excursiones y Aventuras"],
+  "Artesanato &amp; Lembranças":["Handicrafts &amp; Souvenirs","Artesanía y Recuerdos"],
+  "Bem-estar &amp; SPA":["Wellness &amp; Spa","Bienestar y Spa"],
+  "Veículos &amp; Táxis":["Vehicles &amp; Taxis","Vehículos y Taxis"],
+  "Telefones Úteis":["Useful Numbers","Teléfonos Útiles"],
+  "História &amp; Curiosidades":["History &amp; Curiosities","Historia y Curiosidades"],
+  "Grupo Arrey":["Arrey Group","Grupo Arrey"],
+  "Descubra":["Discover","Descubre"],
+  "Eventos &amp; Atrações":["Events &amp; Attractions","Eventos y Atracciones"],
+  "Serviços":["Services","Servicios"],
+  "Outros Hotéis Arrey":["Other Arrey Hotels","Otros Hoteles Arrey"],
+  "Gastronomia regional e frutos do mar":["Regional cuisine and seafood","Gastronomía regional y mariscos"],
+  "Delta · Dunas · Kitesurf · Natureza":["Delta · Dunes · Kitesurfing · Nature","Delta · Dunas · Kitesurf · Naturaleza"],
+  "Arte feita à mão, alma piauiense":["Handmade art, Piauí's soul","Arte hecho a mano, alma de Piauí"],
+  "Massagem e relaxamento":["Massage and relaxation","Masaje y relajación"],
+  "Explore o litoral com liberdade":["Explore the coast with freedom","Explora el litoral con libertad"],
+  "Emergências · Táxi · Aeroporto":["Emergencies · Taxi · Airport","Emergencias · Taxi · Aeropuerto"],
+  "Região fascinante e rica":["A fascinating, rich region","Una región fascinante y rica"],
+  "Nossa história, 30+ anos":["Our story, 30+ years","Nuestra historia, 30+ años"],
+  "Sophia Riviera · Litoral de luxo":["Sophia Riviera · Luxury coastline","Sophia Riviera · Litoral de lujo"],
+  "Shows · Temporadas · Agenda":["Shows · Seasons · Calendar","Shows · Temporadas · Agenda"],
+  "Farmácias":["Pharmacies","Farmacias"],
+  "Teresina · Espanha e mais":["Teresina · Spain and more","Teresina · España y más"],
+  "3 hotéis":["3 hotels","3 hoteles"],
+  "19 parceiros":["19 partners","19 socios"],
+  "4 parceiros":["4 partners","4 socios"],
+  "3 parceiros":["3 partners","3 socios"],
+  "2 parceiros":["2 partners","2 socios"],
+  "15 números":["15 numbers","15 números"],
+  "6 tópicos":["6 topics","6 temas"],
+  "Ver história":["View history","Ver historia"],
+  "Novidade":["New","Novedad"],
+  "Ver agenda":["View calendar","Ver agenda"],
+  "11 locais":["11 locations","11 lugares"],
+  "Reservar":["Book","Reservar"],
+  "O Menor Litoral do Brasil":["Brazil's Smallest Coastline","El Litoral Más Pequeño de Brasil"],
+  "Parnaíba — A Cidade Portal":["Parnaíba — The Gateway City","Parnaíba — La Ciudad Portal"],
+  "Praia das Tartarugas — Tesouro Escondido":["Praia das Tartarugas — A Hidden Treasure","Praia das Tartarugas — Tesoro Escondido"],
+  "A Carnaúba — Árvore da Vida":["The Carnaúba — Tree of Life","La Carnaúba — Árbol de la Vida"],
+  "Barra Grande — De Vila de Pescadores a Spot Mundial":["Barra Grande — From Fishing Village to World Spot","Barra Grande — De Pueblo de Pescadores a Spot Mundial"],
+  "A Rota das Emoções":["The Rota das Emoções","La Rota das Emoções"],
+  "Com apenas <strong>66 km de extensão</strong>, o litoral piauiense é o menor do país — mas um dos mais ricos em biodiversidade. Antes de 1920, Luís Correia pertencia ao Ceará — uma troca de territórios federais deu ao Piauí suas belas praias. São apenas quatro municípios litorâneos: Parnaíba, Ilha Grande, Luís Correia e Cajueiro da Praia.":["With just <strong>66 km in length</strong>, the Piauí coastline is the smallest in the country — but one of the richest in biodiversity. Before 1920, Luís Correia belonged to Ceará — a swap of federal territories gave Piauí its beautiful beaches. There are only four coastal municipalities: Parnaíba, Ilha Grande, Luís Correia and Cajueiro da Praia.","Con solo <strong>66 km de extensión</strong>, el litoral de Piauí es el más pequeño del país — pero uno de los más ricos en biodiversidad. Antes de 1920, Luís Correia pertenecía a Ceará — un intercambio de territorios federales le dio a Piauí sus hermosas playas. Son solo cuatro municipios costeros: Parnaíba, Ilha Grande, Luís Correia y Cajueiro da Praia."],
+  "Fundada em <strong>1761</strong>, Parnaíba é a segunda maior cidade do Piauí. Seu Porto das Barcas foi um dos mais movimentados do Nordeste no século XIX, exportando algodão, carnaúba e couros. A <strong>carnaúba</strong> — chamada de \"árvore da vida\" — moldou a economia piauiense por gerações e é hoje matéria-prima de cosméticos em todo o mundo.":["Founded in <strong>1761</strong>, Parnaíba is Piauí's second-largest city. Its Porto das Barcas was one of the busiest in the Northeast during the 19th century, exporting cotton, carnaúba wax and leather. The <strong>carnaúba palm</strong> — known as the \"tree of life\" — shaped the Piauí economy for generations and is today a raw material for cosmetics worldwide.","Fundada en <strong>1761</strong>, Parnaíba es la segunda ciudad más grande de Piauí. Su Porto das Barcas fue uno de los más activos del Nordeste en el siglo XIX, exportando algodón, cera de carnaúba y cueros. La <strong>carnaúba</strong> — llamada \"árbol de la vida\" — moldeó la economía de Piauí por generaciones y hoy es materia prima de cosméticos en todo el mundo."],
+  "Localizada <strong>entre a Praia do Coqueiro e a Praia do Arrombado</strong>, em Luís Correia, a Praia das Tartarugas é um dos trechos mais exclusivos e preservados do litoral piauiense. Natureza exuberante, beleza selvagem e intocada fazem desta praia um paraíso raro. O Grupo Arrey elegeu este lugar único para o <strong>Sophia Riviera Resort</strong> — empreendimento residencial de alto padrão que promete elevar o turismo de luxo no Piauí.":["Located <strong>between Praia do Coqueiro and Praia do Arrombado</strong>, in Luís Correia, Praia das Tartarugas is one of the most exclusive, well-preserved stretches of the Piauí coast. Lush nature and untouched, wild beauty make this beach a rare paradise. Grupo Arrey chose this unique spot for the <strong>Sophia Riviera Resort</strong> — an upscale residential development set to elevate luxury tourism in Piauí.","Ubicada <strong>entre la Praia do Coqueiro y la Praia do Arrombado</strong>, en Luís Correia, la Praia das Tartarugas es uno de los tramos más exclusivos y preservados del litoral de Piauí. Naturaleza exuberante y belleza salvaje e intocada hacen de esta playa un paraíso poco común. El Grupo Arrey eligió este lugar único para el <strong>Sophia Riviera Resort</strong> — un emprendimiento residencial de alto nivel que promete elevar el turismo de lujo en Piauí."],
+  "A palmeira carnaúba (<em>Copernicia prunifera</em>), símbolo do Piauí, produz cera usada em <strong>cosméticos, alimentos e vernizes em todo o mundo</strong> — o Brasil é o maior exportador global. Suas fibras e palhas dão origem a cestos, tapetes, chapéus e peças decorativas que você encontra nas lojas de artesanato de Parnaíba.":["The carnaúba palm (<em>Copernicia prunifera</em>), a symbol of Piauí, produces wax used in <strong>cosmetics, food and varnishes worldwide</strong> — Brazil is the largest global exporter. Its fibers and straw are used to make baskets, rugs, hats and decorative pieces found in Parnaíba's craft shops.","La palmera carnaúba (<em>Copernicia prunifera</em>), símbolo de Piauí, produce cera usada en <strong>cosméticos, alimentos y barnices en todo el mundo</strong> — Brasil es el mayor exportador global. Sus fibras y pajas dan origen a cestas, alfombras, sombreros y piezas decorativas que encuentras en las tiendas de artesanía de Parnaíba."],
+  "Até os anos 2000, Barra Grande era apenas um vilarejo de pescadores em Cajueiro da Praia. A descoberta das suas <strong>condições perfeitas de vento e água</strong> pelos kitesurfistas transformou o local num destino internacional. Em <strong>2014 sediou o Campeonato Mundial de Kitesurf</strong>. A vila mantém ruas de areia, atmosfera autêntica e restaurantes que combinam sofisticação com o rústico local.":["Until the 2000s, Barra Grande was just a fishing village in Cajueiro da Praia. The discovery of its <strong>perfect wind and water conditions</strong> by kitesurfers turned it into an international destination. In <strong>2014 it hosted the Kitesurf World Championship</strong>. The village still has sandy streets, an authentic atmosphere, and restaurants that blend sophistication with local rusticity.","Hasta los años 2000, Barra Grande era apenas un pueblo de pescadores en Cajueiro da Praia. El descubrimiento de sus <strong>condiciones perfectas de viento y agua</strong> por los kitesurfistas lo transformó en un destino internacional. En <strong>2014 fue sede del Campeonato Mundial de Kitesurf</strong>. El pueblo conserva calles de arena, una atmósfera auténtica y restaurantes que combinan sofisticación con lo rústico local."],
+  "A <strong>Rota das Emoções</strong> conecta três dos destinos mais singulares do Brasil: Lençóis Maranhenses (MA), Delta do Parnaíba (PI) e Jericoacoara (CE). O Delta piauiense é o <strong>único delta em mar aberto das Américas</strong> — fenômeno que só existe no Nilo e no Mekong. O Rio Parnaíba percorre 1.485 km antes de desembocar no Atlântico em cinco braços, formando mais de 75 ilhas.":["The <strong>Rota das Emoções</strong> connects three of Brazil's most singular destinations: Lençóis Maranhenses (MA), Delta do Parnaíba (PI) and Jericoacoara (CE). The Piauí Delta is the <strong>only open-sea delta in the Americas</strong> — a phenomenon that otherwise only exists at the Nile and the Mekong. The Rio Parnaíba runs 1,485 km before reaching the Atlantic through five branches, forming more than 75 islands.","La <strong>Rota das Emoções</strong> conecta tres de los destinos más singulares de Brasil: Lençóis Maranhenses (MA), Delta do Parnaíba (PI) y Jericoacoara (CE). El Delta de Piauí es el <strong>único delta en mar abierto de las Américas</strong> — un fenómeno que solo existe además en el Nilo y el Mekong. El Río Parnaíba recorre 1.485 km antes de desembocar en el Atlántico en cinco brazos, formando más de 75 islas."],
+  "A maior rede hoteleira do Piauí, com presença no Brasil e na Espanha.":["The largest hotel chain in Piauí, present in Brazil and Spain.","La mayor cadena hotelera de Piauí, con presencia en Brasil y España."],
+  "Unidades habitacionais":["Rooms","Unidades habitacionales"],
+  "Anos de atuação":["Years in business","Años de trayectoria"],
+  "Países (BR + ES)":["Countries (BR + ES)","Países (BR + ES)"],
+  "Hotéis em operação":["Hotels in operation","Hoteles en operación"],
+  "🌐 Site do Grupo Arrey":["🌐 Grupo Arrey Website","🌐 Sitio del Grupo Arrey"],
+  "Quem Somos →":["Who We Are →","Quiénes Somos →"],
+  "✦ Nossa História · Fonte: arreyhotels.com.br &amp; grupoarrey.com.br":["✦ Our Story · Source: arreyhotels.com.br &amp; grupoarrey.com.br","✦ Nuestra Historia · Fuente: arreyhotels.com.br y grupoarrey.com.br"],
+  "De um curtume no Piauí à Espanha":["From a tannery in Piauí to Spain","De una curtiembre en Piauí a España"],
+  "<strong>Manuel Arrey</strong>, espanhol, chegou ao Brasil na década de 1970 como diretor industrial. Em viagem ao Piauí, identificou uma oportunidade única e adquiriu um pequeno curtume em Teresina — iniciando exportações de peles e couros para o mercado internacional. Na década de 1980, expandiu para o beneficiamento de castanha de caju, consolidando operações de exportação. Nos anos 1990, reinvestiu os resultados no setor imobiliário, inovando com flats e edifícios comerciais. A hotelaria veio no ano 2000 — e se tornou a joia da coroa.":["<strong>Manuel Arrey</strong>, a Spaniard, arrived in Brazil in the 1970s as an industrial director. On a trip to Piauí, he spotted a unique opportunity and acquired a small tannery in Teresina — starting exports of hides and leather to the international market. In the 1980s, he expanded into cashew nut processing, consolidating export operations. In the 1990s, he reinvested the proceeds into real estate, pioneering with flats and commercial buildings. The hospitality business came in the year 2000 — and became the crown jewel.","<strong>Manuel Arrey</strong>, español, llegó a Brasil en la década de 1970 como director industrial. En un viaje a Piauí, identificó una oportunidad única y adquirió una pequeña curtiembre en Teresina — iniciando exportaciones de pieles y cueros al mercado internacional. En la década de 1980, se expandió al procesamiento de castaña de caju, consolidando operaciones de exportación. En los años 1990, reinvirtió los resultados en el sector inmobiliario, innovando con flats y edificios comerciales. La hotelería llegó en el año 2000 — y se convirtió en la joya de la corona."],
+  "Manuel Arrey chega ao Brasil, identifica oportunidade no Piauí. Adquire curtume em Teresina e inicia exportações de peles, couros e castanha de caju para o mercado internacional.":["Manuel Arrey arrives in Brazil, spots an opportunity in Piauí. Acquires a tannery in Teresina and begins exporting hides, leather and cashew nuts to the international market.","Manuel Arrey llega a Brasil, identifica una oportunidad en Piauí. Adquiere una curtiembre en Teresina e inicia exportaciones de pieles, cueros y castaña de caju al mercado internacional."],
+  "Expansão do curtume. Aquisição de indústria de <strong>beneficiamento de castanha de caju</strong>. Início das exportações diversificadas.":["Expansion of the tannery. Acquisition of a <strong>cashew nut processing</strong> plant. Start of diversified exports.","Expansión de la curtiembre. Adquisición de una planta de <strong>procesamiento de castaña de caju</strong>. Inicio de las exportaciones diversificadas."],
+  "Reinvestimento em <strong>incorporação e construção civil</strong>. Inovação com o conceito de flats e edifícios comerciais.":["Reinvestment in <strong>real estate development and construction</strong>. Innovation with the concept of flats and commercial buildings.","Reinversión en <strong>desarrollo inmobiliario y construcción</strong>. Innovación con el concepto de flats y edificios comerciales."],
+  "Inauguração do primeiro hotel: <strong>Arrey Executive Hotel</strong>, Teresina (PI). Nascimento da marca Arrey Hotels.":["Opening of the first hotel: <strong>Arrey Executive Hotel</strong>, Teresina (PI). Birth of the Arrey Hotels brand.","Inauguración del primer hotel: <strong>Arrey Executive Hotel</strong>, Teresina (PI). Nacimiento de la marca Arrey Hotels."],
+  "Expansão: Fórmula Arrey (Teresina, Itaueira, Uruçuí), Gran Hotel Arrey (200 apts), Hotel Express. Diversificação em distribuição de alimentos, eucalipto e carcinicultura.":["Expansion: Fórmula Arrey (Teresina, Itaueira, Uruçuí), Gran Hotel Arrey (200 units), Hotel Express. Diversification into food distribution, eucalyptus and shrimp farming.","Expansión: Fórmula Arrey (Teresina, Itaueira, Uruçuí), Gran Hotel Arrey (200 unidades), Hotel Express. Diversificación en distribución de alimentos, eucalipto y camaronicultura."],
+  "Internacionalização: <strong>Hotel Carvajal Girón</strong> (Espanha). Expansão para Guiné-Bissau (África) com fábricas de castanha de caju.":["Internationalization: <strong>Hotel Carvajal Girón</strong> (Spain). Expansion into Guinea-Bissau (Africa) with cashew nut factories.","Internacionalización: <strong>Hotel Carvajal Girón</strong> (España). Expansión a Guinea-Bisáu (África) con fábricas de castaña de caju."],
+  "Inauguração do <strong>Arrey Hotel Beach</strong> — Luís Correia (PI). Consolidação no litoral piauiense.":["Opening of <strong>Arrey Hotel Beach</strong> — Luís Correia (PI). Consolidation on the Piauí coast.","Inauguración del <strong>Arrey Hotel Beach</strong> — Luís Correia (PI). Consolidación en el litoral de Piauí."],
+  "<strong>Arrey Hotel Alella</strong> (Espanha). Fortalecimento da presença internacional.":["<strong>Arrey Hotel Alella</strong> (Spain). Strengthening of the international presence.","<strong>Arrey Hotel Alella</strong> (España). Fortalecimiento de la presencia internacional."],
+  "<strong>Arrey Rio Poty Hotel</strong> (Parnaíba, PI) e <strong>Arrey Hotel Boutique</strong> (Barra Grande, PI). Consolidação no litoral norte do Piauí.":["<strong>Arrey Rio Poty Hotel</strong> (Parnaíba, PI) and <strong>Arrey Hotel Boutique</strong> (Barra Grande, PI). Consolidation on the northern coast of Piauí.","<strong>Arrey Rio Poty Hotel</strong> (Parnaíba, PI) y <strong>Arrey Hotel Boutique</strong> (Barra Grande, PI). Consolidación en el litoral norte de Piauí."],
+  "<strong>Hotel Express Arrey — Piracuruca</strong> (PI). Em construção: Express Picos e o maior resort do Piauí — <strong>Condomínio Sophia Riviera</strong>.":["<strong>Hotel Express Arrey — Piracuruca</strong> (PI). Under construction: Express Picos and the largest resort in Piauí — <strong>Condomínio Sophia Riviera</strong>.","<strong>Hotel Express Arrey — Piracuruca</strong> (PI). En construcción: Express Picos y el mayor resort de Piauí — <strong>Condomínio Sophia Riviera</strong>."],
+  "📖 Muito mais informações — Site do Grupo Arrey":["📖 Much more information — Grupo Arrey Website","📖 Mucha más información — Sitio del Grupo Arrey"],
+  "Reservar em qualquer hotel":["Book at any hotel","Reservar en cualquier hotel"],
+  "🦅 Revoada dos Guarás":["🦅 Scarlet Ibis Flight","🦅 Vuelo de los Guarás"],
+  "🪁 Temporada dos Ventos":["🪁 Wind Season","🪁 Temporada de Vientos"],
+  "🌊 Alta Temporada — Praias":["🌊 High Season — Beaches","🌊 Temporada Alta — Playas"],
+  "🌿 Praia das Tartarugas":["🌿 Praia das Tartarugas","🌿 Praia das Tartarugas"],
+  "🎆 Réveillon das Emoções":["🎆 New Year's Eve of Emotions","🎆 Fin de Año de las Emociones"],
+  "🎨 Artesanato Piauiense":["🎨 Piauí Handicrafts","🎨 Artesanía de Piauí"],
+  "🌊 Alta Temporada Praias":["🌊 High Season Beaches","🌊 Temporada Alta Playas"],
+  "Todos os dias ao entardecer (17h–18h) · Delta do Parnaíba":["Every day at dusk (5pm–6pm) · Delta do Parnaíba","Todos los días al atardecer (17h–18h) · Delta do Parnaíba"],
+  "Agosto a Janeiro · Barra Grande":["August to January · Barra Grande","Agosto a Enero · Barra Grande"],
+  "Junho a Dezembro · Todo o litoral":["June to December · Along the whole coast","Junio a Diciembre · Todo el litoral"],
+  "Ano inteiro · Entre Coqueiro e Arrombado · Luís Correia":["Year-round · Between Coqueiro and Arrombado · Luís Correia","Todo el año · Entre Coqueiro y Arrombado · Luís Correia"],
+  "31 de dezembro · Barra Grande":["December 31 · Barra Grande","31 de diciembre · Barra Grande"],
+  "Ano inteiro · Parnaíba e Barra Grande":["Year-round · Parnaíba and Barra Grande","Todo el año · Parnaíba y Barra Grande"],
+  "● Permanente — Diário":["● Ongoing — Daily","● Permanente — Diario"],
+  "● Agosto a Janeiro":["● August to January","● Agosto a Enero"],
+  "● Junho a Dezembro":["● June to December","● Junio a Diciembre"],
+  "● Permanente — Ano inteiro":["● Ongoing — Year-round","● Permanente — Todo el año"],
+  "● 31 de Dezembro":["● December 31","● 31 de Diciembre"],
+  "● Permanente — Agosto a Janeiro":["● Ongoing — August to January","● Permanente — Agosto a Enero"],
+  "● Permanente — 31 de dezembro":["● Ongoing — December 31","● Permanente — 31 de diciembre"],
+  "● Permanente — Junho a Dezembro":["● Ongoing — June to December","● Permanente — Junio a Diciembre"],
+  "● Permanente — Contínuo":["● Ongoing — Continuous","● Permanente — Continuo"],
+  "🚤 Ver Passeios":["🚤 View Tours","🚤 Ver Excursiones"],
+  "🪁 Ver Kite Escolas":["🪁 View Kite Schools","🪁 Ver Escuelas de Kite"],
+  "🏨 Ver Hotéis":["🏨 View Hotels","🏨 Ver Hoteles"],
+  "🎨 Ver Artesanato":["🎨 View Handicrafts","🎨 Ver Artesanía"],
+  "🚢 Ver passeios":["🚢 View tours","🚢 Ver excursiones"],
+  "🪁 Ver kite escolas":["🪁 View kite schools","🪁 Ver escuelas de kite"],
+  "🏨 Ver hotéis":["🏨 View hotels","🏨 Ver hoteles"],
+  "🗺️ Ver roteiros":["🗺️ View itineraries","🗺️ Ver itinerarios"],
+  "🎨 Ver artesanato":["🎨 View handicrafts","🎨 Ver artesanía"],
+  "Milhares de íbis-escarlate tingem o céu de vermelho ao entardecer nas ilhas do Delta. Espetáculo único no mundo. Saída do Porto dos Tatus com as agências parceiras.":["Thousands of scarlet ibis turn the sky red at dusk over the Delta islands. A one-of-a-kind spectacle. Departs from Porto dos Tatus with partner agencies.","Miles de ibis escarlata tiñen el cielo de rojo al atardecer sobre las islas del Delta. Un espectáculo único en el mundo. Salida desde Porto dos Tatus con las agencias asociadas."],
+  "Ventos fortes e constantes transformam Barra Grande num polo mundial do kitesurf, com visitantes de mais de 30 países. A melhor época para praticar kite, windsurf e SUP nas águas paradisíacas.":["Strong, steady winds turn Barra Grande into a world kitesurfing hub, with visitors from more than 30 countries. The best time to practice kite, windsurf and SUP in paradise waters.","Vientos fuertes y constantes convierten a Barra Grande en un polo mundial del kitesurf, con visitantes de más de 30 países. La mejor época para practicar kite, windsurf y SUP en aguas paradisíacas."],
+  "Estação seca com clima perfeito para praias e passeios. Luís Correia chega a 5× sua população normal. Mais de 10 praias abertas com barracas, aulas de surf e kite e piscinas naturais na maré baixa.":["Dry season with perfect weather for beaches and tours. Luís Correia's population grows up to 5× its normal size. Over 10 beaches open with beach kiosks, surf and kite lessons, and natural pools at low tide.","Estación seca con clima perfecto para playas y paseos. Luís Correia llega a 5 veces su población normal. Más de 10 playas abiertas con quioscos, clases de surf y kite, y piscinas naturales en marea baja."],
+  "Uma das praias mais belas e exclusivas do litoral piauiense. Natureza exuberante, mar cristalino e beleza intocada. Futuro Sophia Riviera Resort do Grupo Arrey.":["One of the most beautiful, exclusive beaches on the Piauí coast. Lush nature, crystal-clear sea and untouched beauty. Future site of Grupo Arrey's Sophia Riviera Resort.","Una de las playas más bellas y exclusivas del litoral de Piauí. Naturaleza exuberante, mar cristalino y belleza intocada. Futuro Sophia Riviera Resort del Grupo Arrey."],
+  "Um dos réveillons mais badalados do Nordeste — shows ao vivo, fogos de artifício e a magia de virar o ano com os pés na areia branca de Barra Grande. Reserve com muita antecedência!":["One of the Northeast's most popular New Year's celebrations — live shows, fireworks and the magic of ringing in the new year with your feet in the white sand of Barra Grande. Book well ahead!","Uno de los fines de año más animados del Nordeste — shows en vivo, fuegos artificiales y la magia de recibir el año nuevo con los pies en la arena blanca de Barra Grande. ¡Reserva con mucha anticipación!"],
+  "Arte da carnaúba, cerâmica da Serra da Capivara e esculturas em madeira disponíveis o ano todo nos parceiros Arrey Indica.":["Carnaúba art, Serra da Capivara ceramics and wood sculptures available year-round from Arrey Indica partners.","Arte de carnaúba, cerámica de la Serra da Capivara y esculturas en madera disponibles todo el año en los socios de Arrey Indica."],
+  "Milhares de íbis-escarlate chegam para dormir em uma ilha do Delta. Espetáculo gratuito e inesquecível. Saída do Porto dos Tatus com as agências parceiras.":["Thousands of scarlet ibis arrive to roost on a Delta island. A free, unforgettable spectacle. Departs from Porto dos Tatus with partner agencies.","Miles de ibis escarlata llegan a dormir en una isla del Delta. Un espectáculo gratuito e inolvidable. Salida desde Porto dos Tatus con las agencias asociadas."],
+  "A melhor época para kitesurf em Barra Grande. Ventos fortes e constantes transformam a vila num polo mundial, com visitantes de mais de 30 países. Reserve o Arrey Boutique com antecedência!":["The best time for kitesurfing in Barra Grande. Strong, steady winds turn the village into a world hub, with visitors from more than 30 countries. Book Arrey Boutique ahead of time!","La mejor época para el kitesurf en Barra Grande. Vientos fuertes y constantes convierten al pueblo en un polo mundial, con visitantes de más de 30 países. ¡Reserva el Arrey Boutique con anticipación!"],
+  "Um dos réveillons mais badalados do Nordeste na praia de Barra Grande — shows ao vivo, fogos e a magia de virar o ano com os pés na areia. Lotação rápida!":["One of the Northeast's most popular New Year's celebrations, on Barra Grande beach — live shows, fireworks and the magic of ringing in the new year with your feet in the sand. Fills up fast!","Uno de los fines de año más animados del Nordeste en la playa de Barra Grande — shows en vivo, fuegos artificiales y la magia de recibir el año nuevo con los pies en la arena. ¡Se llena rápido!"],
+  "Uma das praias mais belas e exclusivas do litoral piauiense, entre a Praia do Coqueiro e do Arrombado. Natureza exuberante, mar cristalino e beleza intocada. Futuro Sophia Riviera Resort do Grupo Arrey.":["One of the most beautiful, exclusive beaches on the Piauí coast, between Praia do Coqueiro and Praia do Arrombado. Lush nature, crystal-clear sea and untouched beauty. Future site of Grupo Arrey's Sophia Riviera Resort.","Una de las playas más bellas y exclusivas del litoral de Piauí, entre la Praia do Coqueiro y la del Arrombado. Naturaleza exuberante, mar cristalino y belleza intocada. Futuro Sophia Riviera Resort del Grupo Arrey."],
+  "Estação seca: melhor clima para praia. Luís Correia chega a 5× sua população normal nos feriados. As praias de Atalaia e Coqueiro ficam animadas. Reserve com antecedência.":["Dry season: the best weather for the beach. Luís Correia's population grows up to 5× its normal size during holidays. Atalaia and Coqueiro beaches get lively. Book ahead.","Estación seca: mejor clima para la playa. Luís Correia llega a 5 veces su población normal en los feriados. Las playas de Atalaia y Coqueiro se animan. Reserva con anticipación."],
+  "Arte da carnaúba, cerâmica da Serra da Capivara e joias em prata — cultura viva do Piauí disponível todo ano nas lojas parceiras Arrey Indica. Compre direto do artesão.":["Carnaúba art, Serra da Capivara ceramics and silver jewelry — living Piauí culture available year-round at Arrey Indica partner shops. Buy directly from the artisan.","Arte de carnaúba, cerámica de la Serra da Capivara y joyas en plata — cultura viva de Piauí disponible todo el año en las tiendas asociadas de Arrey Indica. Compra directamente al artesano."],
+  "Data de chegada":["Arrival date","Fecha de llegada"],
+  "Data de saída":["Departure date","Fecha de salida"],
+  "Limpar":["Clear","Limpiar"],
+  "Planeje sua viagem pelas atrações":["Plan your trip around the attractions","Planifica tu viaje según las atracciones"],
+  "Nenhum evento especial no período":["No special events in this period","Ningún evento especial en el período"],
+  "Mas as atrações permanentes como a Revoada dos Guarás acontecem todos os dias!":["But ongoing attractions like the Scarlet Ibis Flight happen every day!","¡Pero las atracciones permanentes como el Vuelo de los Guarás ocurren todos los días!"],
+  "📌 Tem um evento no litoral neste período?":["📌 Is there an event on the coast during this period?","📌 ¿Hay un evento en el litoral en este período?"],
+  "Shows, festivais, campeonatos e atrações temporárias podem ser incluídos aqui com datas de início e fim. Após o encerramento, o evento some automaticamente.":["Shows, festivals, championships and temporary attractions can be added here with start and end dates. Once it ends, the event disappears automatically.","Shows, festivales, campeonatos y atracciones temporales pueden incluirse aquí con fechas de inicio y fin. Al finalizar, el evento desaparece automáticamente."],
+  "💬 Falar com a Arrey Hotels":["💬 Talk to Arrey Hotels","💬 Hablar con Arrey Hotels"],
+  "📌 Tem um evento especial acontecendo no litoral?":["📌 Is there a special event happening on the coast?","📌 ¿Hay un evento especial ocurriendo en el litoral?"],
+  "Shows, festivais, campeonatos e atrações temporárias podem ser divulgados aqui para os hóspedes da Rede Arrey Hotels. Os eventos possuem data de início e fim — ao vencer, somem automaticamente. Entre em contato para incluir no Arrey Indica.":["Shows, festivals, championships and temporary attractions can be promoted here for Arrey Hotels guests. Events have a start and end date — once they expire, they disappear automatically. Get in touch to add yours to Arrey Indica.","Shows, festivales, campeonatos y atracciones temporales pueden anunciarse aquí para los huéspedes de la Red Arrey Hotels. Los eventos tienen fecha de inicio y fin — al vencer, desaparecen automáticamente. Contáctanos para incluir el tuyo en Arrey Indica."],
+  "🚨 Emergências Nacionais":["🚨 National Emergency Numbers","🚨 Emergencias Nacionales"],
+  "🏨 Central Arrey Hotels":["🏨 Arrey Hotels Call Center","🏨 Central Arrey Hotels"],
+  "✈️ Transporte":["✈️ Transportation","✈️ Transporte"],
+  "📱 Aplicativo de Transporte — Parnaíba &amp; Luís Correia":["📱 Ride-hailing App — Parnaíba &amp; Luís Correia","📱 Aplicación de Transporte — Parnaíba y Luís Correia"],
+  "🚕 Táxi &amp; Mototáxi — Parnaíba &amp; Luís Correia":["🚕 Taxi &amp; Motorcycle Taxi — Parnaíba &amp; Luís Correia","🚕 Taxi y Mototaxi — Parnaíba y Luís Correia"],
+  "SAMU — Urgência Médica":["SAMU — Medical Emergency","SAMU — Urgencia Médica"],
+  "Bombeiros":["Fire Department","Bomberos"],
+  "Polícia Militar":["Military Police","Policía Militar"],
+  "WhatsApp Arrey Hotels":["WhatsApp Arrey Hotels","WhatsApp Arrey Hotels"],
+  "Central de Reservas":["Reservations Center","Central de Reservas"],
+  "Reservas Online Arrey":["Arrey Online Booking","Reservas Online Arrey"],
+  "Aeroporto Internacional Parnaíba":["Parnaíba International Airport","Aeropuerto Internacional de Parnaíba"],
+  "Aplicativo de transporte disponível em <strong style=\"color:var(--gold2)\">Parnaíba e Luís Correia</strong>. Negocie o valor diretamente com o motorista. Mais econômico que táxi convencional.":["Ride-hailing app available in <strong style=\"color:var(--gold2)\">Parnaíba and Luís Correia</strong>. Negotiate the fare directly with the driver. More affordable than a conventional taxi.","Aplicación de transporte disponible en <strong style=\"color:var(--gold2)\">Parnaíba y Luís Correia</strong>. Negocia el precio directamente con el conductor. Más económico que un taxi convencional."]
+};
+
+function translateStaticContent(lang){
+  var sels = ['.clabel','.csub','.ccnt','.hist-title','.hist-text','.grp-eyebrow','.grp-title','.grp-body',
+    '.gtl-text','.evt-card-name','.evt-card-when','.evt-card-desc','.evt-badge','.evt-link',
+    '.grp-btn','.grp-btn-o','.evt-add-btn'];
+  sels.forEach(function(sel){
+    document.querySelectorAll(sel).forEach(function(el){
+      if(!el.hasAttribute('data-orig')) el.setAttribute('data-orig', el.innerHTML);
+      el.innerHTML = pickTr(el.getAttribute('data-orig'), TR_STATIC, lang);
+    });
+  });
+  document.querySelectorAll('.grp-stat span').forEach(function(el){
+    if(!el.hasAttribute('data-orig')) el.setAttribute('data-orig', el.textContent);
+    el.textContent = pickTr(el.getAttribute('data-orig'), TR_STATIC, lang);
+  });
+  document.querySelectorAll('label').forEach(function(el){
+    if(!el.hasAttribute('data-orig')) el.setAttribute('data-orig', el.textContent);
+    el.textContent = pickTr(el.getAttribute('data-orig'), TR_STATIC, lang);
+  });
+  document.querySelectorAll('button[onclick="limparDatas()"]').forEach(function(el){
+    if(!el.hasAttribute('data-orig')) el.setAttribute('data-orig', el.textContent);
+    el.textContent = pickTr(el.getAttribute('data-orig'), TR_STATIC, lang);
+  });
+  document.querySelectorAll('#agenda-vazio div, .evt-add-banner h4, .evt-add-banner p, .evt-hero h3, .evt-hero p').forEach(function(el){
+    if(!el.hasAttribute('data-orig')) el.setAttribute('data-orig', el.innerHTML);
+    el.innerHTML = pickTr(el.getAttribute('data-orig'), TR_STATIC, lang);
+  });
+}
+
 function setLang(lang) {
   currentLang = lang;
   document.documentElement.setAttribute('data-lang', lang);
@@ -2560,6 +3104,10 @@ function setLang(lang) {
     const key = el.getAttribute('data-t');
     if (t[key] !== undefined) el.innerHTML = t[key];
   });
+
+  // Translate establishment cards (names, addresses and place names stay in Portuguese)
+  translateEstablishments(lang);
+  translateStaticContent(lang);
 }
 
 
